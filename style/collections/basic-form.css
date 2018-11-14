@@ -1,0 +1,49 @@
+.basic-form {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-row-gap: 5px;
+}
+
+.basic-form legend {
+  grid-column: 1/13;
+}
+
+.basic-form > label {
+  grid-column: 1/3;
+  line-height: var(--inputHeight);
+  padding-right: 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.basic-form > :not(label) {
+  grid-column: 3/11;
+  width: auto;
+}
+
+@media (min-width: 320px) and (max-width: 666px) {
+  .basic-form > label {
+    grid-column: 1/13;
+    line-height: 1em;
+    padding-top: 0.3em;
+    color: var(--mainVague);
+    overflow: visible;
+    white-space: normal;
+    text-overflow: clip;
+  }
+
+  .basic-form > :not(label) {
+    grid-column: 1/13;
+  }
+}
+
+@media (min-width: 667px) and (max-width: 1023px) {
+  .basic-form > label {
+    grid-column: 1/4;
+  }
+
+  .basic-form > :not(label) {
+    grid-column: 4/13;
+  }
+}

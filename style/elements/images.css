@@ -1,0 +1,23 @@
+img {
+  max-width: 100%;
+}
+
+figure {
+  display: inline-block;
+  border: 1px solid var(--mainLine);
+  overflow: hidden;
+  border-radius: 4px;
+  margin: var(--paragraphSpacer) 0;
+  padding: 3px;
+  max-width: 100%;
+}
+
+figure img {
+  margin-bottom: -0.4em;
+}
+
+figure figcaption {
+  font-family: var(--utilityText);
+  color: var(--mainVague);
+  padding: 0.4em 0.2em 0.2em;
+}

@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--headerBackground);
+  border: 0px solid var(--headerLine);
+  height: var(--headerHeight);
+}
+
+.navbar .spacer {
+  flex-grow: 100;
+}
+
+.navbar #brand > img {
+  position: relative;
+  top: -4px;
+  width: calc(var(--headerHeight) * .9);
+  height: calc(var(--headerHeight) * .9);
+}
+
+.navbar .group, .navbar button {
+  margin-left: 1em;
+}

@@ -1,0 +1,61 @@
+del {
+  text-decoration: line-through solid var(--inputLineError);
+}
+
+code,
+kbd,
+pre,
+samp,
+tt {
+  font-family: var(--monoText);
+}
+
+code {
+  padding: 2px 4px;
+  font-size: 0.9em;
+  color: var(--red);
+  background-color: var(--mainBackgroundLite);
+  border-radius: 4px;
+}
+
+kbd {
+  padding: 2px 4px;
+  font-size: 0.9em;
+  color: var(--white);
+  background-color: var(--darkblue);
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+pre {
+  display: block;
+  color: var(--mainText);
+  background-color: var(--mainBackgroundLite);
+  border: 1px solid var(--mainLine);
+  border-radius: 6px;
+  padding: 0.5em 1em;
+  white-space: pre-wrap;
+  word-break: normal;
+  word-wrap: break-word;
+  margin: var(--paragraphSpacer) 0;
+}
+
+.code-sample > pre {
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.code-sample > pre > code {
+  padding: 1em;
+}
+
+samp {
+  padding: 2px 4px;
+  color: var(--mainText);
+  background-color: var(--mainBackgroundLite);
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  margin: var(--paragraphSpacer) 0;
+}

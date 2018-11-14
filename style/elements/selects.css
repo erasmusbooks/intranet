@@ -1,0 +1,21 @@
+select {
+  font-family: var(--utilityText);
+  appearance: none;
+  background: url(icons/chevron-down.svg) no-repeat calc(100% - 0.4em) center;
+  cursor: pointer;
+  padding-right: 2.5em;
+}
+
+select[multiple] {
+  min-height: calc(2* var(--inputHeight));
+  background: none;
+  padding: 0.5em 0 0;
+}
+
+select[multiple][disabled] {
+  background-color: var(--inputBackgroundDisabled);
+}
+
+select option {
+  padding: 0.4em 1em;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "nausikaa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss style/index.css -o style.css --watch",
+    "build": "postcss style/index.css -o style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^3.10.0",
+    "postcss-banner": "^3.0.0",
+    "postcss-cli": "^4.1.1",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^11.0.0",
+    "postcss-nested": "^2.1.2",
+    "prettier": "^1.7.4"
+  },
+  "dependencies": {}
+}

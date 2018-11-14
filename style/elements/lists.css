@@ -1,0 +1,44 @@
+ol,
+ul {
+  margin: var(--paragraphSpacer) 2em;
+}
+
+ol > ol, ul > ol, ul > ul, ol > ul {
+  margin: 0 2em;
+}
+
+dl {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: var(--paragraphSpacer) 0;
+}
+
+dl dt {
+  flex: 0 0 15%;
+  padding-right: 2em;
+  font-family: var(--utilityText);
+  color: var(--mainVague);
+  word-spacing: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+dl dd {
+  flex: 0 0 85%;
+}
+
+dl hr {
+  flex: 0 0 100%;
+  border-width: 0;
+  margin: 0 0 calc(var(--lineHeight) / 2);
+}
+
+@media (min-width: 320px) and (max-width: 666px) {
+  dl dt {
+    flex: 0 0 25%;
+  }
+  dl dd {
+    flex: 0 0 75%;
+  }
+}

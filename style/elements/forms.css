@@ -1,0 +1,253 @@
+form {
+  margin: var(--paragraphSpacer) 0;
+}
+
+fieldset {
+  border-width: 0;
+}
+
+legend {
+  font-size: 2em;
+  font-weight: 300;
+  margin: var(--paragraphSpacer) 0;
+}
+
+label {
+  font-family: var(--utilityText);
+}
+
+.help {
+  margin-top: -4px;
+  color: var(--gray);
+  font-family: var(--utilityText);
+}
+
+.buttons + .help {
+  margin-top: 4px;
+}
+
+.help.error {
+  color: var(--inputLineError);
+}
+
+.group {
+  display: inline-flex;
+  margin: 0 0 0.4rem 0;
+  vertical-align: bottom;
+}
+
+.group > * {
+  border-radius: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: -1px;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.group > *:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.group > *:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.group > input[type='date'],
+.group > input[type='datetime-local'],
+.group > input[type='email'],
+.group > input[type='month'],
+.group > input[type='number'],
+.group > input[type='password'],
+.group > input[type='search'],
+.group > input[type='tel'],
+.group > input[type='text'],
+.group > input[type='time'],
+.group > input[type='url'],
+.group > input[type='week'],
+.group > input:not([type]),
+.group > select {
+  flex: 1 0 auto;
+  border-radius: 0;
+}
+
+.group > input[type='date']:first-child,
+.group > input[type='datetime-local']:first-child,
+.group > input[type='email']:first-child,
+.group > input[type='month']:first-child,
+.group > input[type='number']:first-child,
+.group > input[type='password']:first-child,
+.group > input[type='search']:first-child,
+.group > input[type='tel']:first-child,
+.group > input[type='text']:first-child,
+.group > input[type='time']:first-child,
+.group > input[type='url']:first-child,
+.group > input[type='week']:first-child,
+.group > input:not([type]):first-child,
+.group > select:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.group > input[type='date']:last-child,
+.group > input[type='datetime-local']:last-child,
+.group > input[type='email']:last-child,
+.group > input[type='month']:last-child,
+.group > input[type='number']:last-child,
+.group > input[type='password']:last-child,
+.group > input[type='search']:last-child,
+.group > input[type='tel']:last-child,
+.group > input[type='text']:last-child,
+.group > input[type='time']:last-child,
+.group > input[type='url']:last-child,
+.group > input[type='week']:last-child,
+.group > input:not([type]):last-child,
+.group > select:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.group > input[type='date'].append-icon,
+.group > input[type='datetime-local'].append-icon,
+.group > input[type='email'].append-icon,
+.group > input[type='month'].append-icon,
+.group > input[type='number'].append-icon,
+.group > input[type='password'].append-icon,
+.group > input[type='search'].append-icon,
+.group > input[type='tel'].append-icon,
+.group > input[type='text'].append-icon,
+.group > input[type='time'].append-icon,
+.group > input[type='url'].append-icon,
+.group > input[type='week'].append-icon,
+.group > input:not([type]).append-icon,
+.group > select.append-icon {
+  margin-right: calc(
+     (var(--inputHeight) * -0.7) - (var(--fontSize) * -0.3) -1px
+  );
+  padding-right: 2.5em;
+  background-position: calc(100% - 2em) center;
+}
+
+.group > input[type='date'].append-icon:nth-last-child(2),
+.group > input[type='datetime-local'].append-icon:nth-last-child(2),
+.group > input[type='email'].append-icon:nth-last-child(2),
+.group > input[type='month'].append-icon:nth-last-child(2),
+.group > input[type='number'].append-icon:nth-last-child(2),
+.group > input[type='password'].append-icon:nth-last-child(2),
+.group > input[type='search'].append-icon:nth-last-child(2),
+.group > input[type='tel'].append-icon:nth-last-child(2),
+.group > input[type='text'].append-icon:nth-last-child(2),
+.group > input[type='time'].append-icon:nth-last-child(2),
+.group > input[type='url'].append-icon:nth-last-child(2),
+.group > input[type='week'].append-icon:nth-last-child(2),
+.group > input:not([type]).append-icon:nth-last-child(2),
+.group > select.append-icon:nth-last-child(2) {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.group > input[type='date'].append-icon + .icon,
+.group > input[type='datetime-local'].append-icon + .icon,
+.group > input[type='email'].append-icon + .icon,
+.group > input[type='month'].append-icon + .icon,
+.group > input[type='number'].append-icon + .icon,
+.group > input[type='password'].append-icon + .icon,
+.group > input[type='search'].append-icon + .icon,
+.group > input[type='tel'].append-icon + .icon,
+.group > input[type='text'].append-icon + .icon,
+.group > input[type='time'].append-icon + .icon,
+.group > input[type='url'].append-icon + .icon,
+.group > input[type='week'].append-icon + .icon,
+.group > input:not([type]).append-icon + .icon,
+.group > select.append-icon + .icon {
+  left: -0.6em;
+}
+
+.group > input[type='date'].append-icon.prepend-icon,
+.group > input[type='datetime-local'].append-icon.prepend-icon,
+.group > input[type='email'].append-icon.prepend-icon,
+.group > input[type='month'].append-icon.prepend-icon,
+.group > input[type='number'].append-icon.prepend-icon,
+.group > input[type='password'].append-icon.prepend-icon,
+.group > input[type='search'].append-icon.prepend-icon,
+.group > input[type='tel'].append-icon.prepend-icon,
+.group > input[type='text'].append-icon.prepend-icon,
+.group > input[type='time'].append-icon.prepend-icon,
+.group > input[type='url'].append-icon.prepend-icon,
+.group > input[type='week'].append-icon.prepend-icon,
+.group > input:not([type]).append-icon.prepend-icon,
+.group > select.append-icon.prepend-icon {
+  margin-right: calc(
+    2* (var(--inputHeight) * -0.7) - (var(--fontSize) * -0.3) -1px
+  );
+}
+
+.group > input[type='date'].append-icon.prepend-icon + .icon,
+.group > input[type='datetime-local'].append-icon.prepend-icon + .icon,
+.group > input[type='email'].append-icon.prepend-icon + .icon,
+.group > input[type='month'].append-icon.prepend-icon + .icon,
+.group > input[type='number'].append-icon.prepend-icon + .icon,
+.group > input[type='password'].append-icon.prepend-icon + .icon,
+.group > input[type='search'].append-icon.prepend-icon + .icon,
+.group > input[type='tel'].append-icon.prepend-icon + .icon,
+.group > input[type='text'].append-icon.prepend-icon + .icon,
+.group > input[type='time'].append-icon.prepend-icon + .icon,
+.group > input[type='url'].append-icon.prepend-icon + .icon,
+.group > input[type='week'].append-icon.prepend-icon + .icon,
+.group > input:not([type]).append-icon.prepend-icon + .icon,
+.group > select.append-icon.prepend-icon + .icon {
+  left: -0.3em;
+}
+
+.group > .icon {
+  font-size: var(--inputFontSize);
+  position: relative;
+  fill: var(--mainLine);
+  width: calc((var(--inputHeight) * 0.7) - (var(--fontSize) * 0.3));
+  height: calc((var(--inputHeight) * 0.7) - (var(--fontSize) * 0.3));
+  top: calc(var(--inputHeight) * 0.2);
+  left: 0.6em;
+  z-index: 1;
+}
+
+.group > .icon + .prepend-icon {
+  right: calc((var(--inputHeight) * 0.7) - (var(--fontSize) * 0.3) - 1px);
+  margin-right: calc(
+     (var(--inputHeight) * -0.7) - (var(--fontSize) * -0.3) -1px
+  );
+  padding-left: 2.5em;
+}
+
+.group > .icon + .prepend-icon:nth-child(2) {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.group button:first-child + :not(button),
+.group .button:first-child + :not(button) {
+  margin-left: 1px;
+}
+
+.group label {
+  font-size: var(--inputFontSize);
+  height: var(--inputHeight);
+  color: var(--mainText);
+  background-color: var(--inputBackgroundDisabled);
+  border: 1px solid var(--inputLine);
+  line-height: calc(var(--inputHeight) - 2px);
+  padding: 0 1em;
+}
+
+.group label:first-child {
+  border-right-width: 0;
+}
+
+.group label .icon {
+  position: relative;
+  display: inline;
+  width: calc((var(--inputHeight) * 0.65) - (var(--fontSize) * 0.3));
+  height: calc((var(--inputHeight) * 0.65) - (var(--fontSize) * 0.3));
+  top: calc(var(--inputHeight) * 0.175);
+}

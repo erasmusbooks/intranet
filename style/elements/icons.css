@@ -1,0 +1,5 @@
+.icon {
+  fill: var(--mainText);
+  width: var(--fontSize);
+  height: var(--fontSize);
+}

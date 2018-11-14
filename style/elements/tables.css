@@ -1,0 +1,72 @@
+table,
+.table {
+  text-align: justify;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 100%;
+  margin: var(--paragraphSpacer) 0;
+}
+
+table th,
+.table th {
+  background-color: var(--mainBackgroundLite);
+}
+
+table th,
+table td,
+.table th,
+.table td {
+  text-align: left;
+  padding: 0.5em;
+  vertical-align: top;
+  border-top: 1px solid var(--mainLine);
+}
+
+table tr:hover td,
+.table tr:hover td {
+  background-color: var(--mainBackgroundLite);
+}
+
+table thead th,
+.table thead th {
+  font-family: var(--utilityText);
+  border-top-width: 0;
+  border-bottom: 2px solid var(--mainLine);
+}
+
+table tfoot th,
+.table tfoot th {
+  border-top: 2px solid var(--mainLine);
+}
+
+table.bordered td,
+table.bordered th,
+.table.bordered td,
+.table.bordered th {
+  border: 1px solid var(--mainLine);
+}
+
+table.bordered thead th,
+.table.bordered thead th {
+  border-bottom: 2px solid var(--mainLine);
+}
+
+table.bordered tfoot th,
+.table.bordered tfoot th {
+  border-top: 2px solid var(--mainLine);
+}
+
+table.striped tbody tr:nth-of-type(odd) td,
+.table.striped tbody tr:nth-of-type(odd) td {
+  background-color: var(--mainBackgroundAlt);
+}
+
+table.striped tbody tr:hover:nth-of-type(odd) td,
+.table.striped tbody tr:hover:nth-of-type(odd) td {
+  background-color: var(--mainBackgroundLite);
+}
+
+table.outlined {
+  border: 1px solid var(--mainLine);
+}

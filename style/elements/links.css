@@ -1,0 +1,62 @@
+a {
+  color: var(--linkColor);
+  text-decoration: underline solid var(--linkLine);
+  cursor: pointer;
+}
+
+a.hover,
+a:hover {
+  color: var(--linkHover);
+  text-decoration: underline solid var(--linkLine);
+}
+
+a.focus,
+a:focus {
+  outline-width: 0;
+  color: var(--linkActive);
+  text-decoration: underline solid var(--linkLine);
+  outline: 1px dotted var(--mainVague);
+}
+
+a.active,
+a:active {
+  color: var(--linkActive);
+  text-decoration: underline solid var(--mainText);
+}
+
+a.visited,
+a:visited {
+  color: var(--linkVisited);
+  text-decoration: underline solid var(--linkVisited);
+}
+
+a.visited.visited-hover,
+a.visited:hover,
+a:visited.visited-hover,
+a:visited:hover {
+  color: var(--linkHover);
+  text-decoration: underline solid var(--linkVisited);
+}
+
+a.visited.visited-focus,
+a.visited:focus,
+a:visited.visited-focus,
+a:visited:focus {
+  outline-width: 0;
+  color: var(--linkActive);
+  text-decoration: underline solid var(--linkVisited);
+  outline: 1px dotted var(--mainVague);
+}
+
+a.visited.visited-active,
+a.visited:active,
+a:visited.visited-active,
+a:visited:active {
+  color: var(--linkActive);
+  text-decoration: underline solid var(--mainText);
+}
+
+a.button {
+  text-decoration: none;
+}
+

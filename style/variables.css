@@ -1,0 +1,105 @@
+:root {
+  /* COLORS */
+
+  --black: #111;
+  --white: #fff;
+  --red: #c00;
+  --blue: #2980d7;
+  --darkblue: #154360;
+  --yellow: #ff0;
+  --gray: #aaa;
+
+  /* TYPOGRAPHY */
+
+  --blockText: 'IBM Plex Serif', Georgia, serif;
+  --utilityText: 'IBM Plex Sans', Calibri, Arial, Verdana, sans-serif;
+  --monoText: 'IBM Plex Mono', monospace;
+
+  --fontFamily: var(--blockText);
+  --fontSize: 15px;
+  --lineHeight: calc(var(--fontSize) * 1.4);
+  --paragraphSpacer: calc(var(--lineHeight) * 0.75);
+
+  /* GENERAL */
+
+  --mainBackground: var(--white);
+  --mainBackgroundLite: #efefef;
+  --mainBackgroundLiteHover: #e6e6e6;
+  --mainBackgroundAlt: #f8f8f8;
+  --mainText: var(--black);
+  --mainVague: #666;
+  --mainHover: #999;
+  --mainLine: #c0c0c0;
+
+  /* HEADER */
+
+  --headerBackground: var(--white);
+  --headerText: var(--black);
+  --headerLine: var(--mainLine);
+  --headerHeight: 70px;
+
+  /* ASIDE */
+
+  --asideBackground: #e6e6e6;
+  --asideLine: #c8c8c8;
+
+  /* SECTIONS */
+
+  --sectionHeaderBackground: #f2f2f2;
+  --inner3D: var(--white);
+  --outer3D: var(--black);
+  --outer3D-80: #1a1a1a;
+  --outer3D-60: #262626;
+  --outer3D-50: #595959;
+  --outer3D-40: #737373;
+
+  /* LINKS */
+
+  --linkColor: #2573a7;
+  --linkLine: #3498db;
+  --linkHover: var(--mainText);
+  --linkActive: var(--mainText);
+  --linkVisited: #8e44ad;
+
+  /* INPUT */
+
+  --inputFontSize: 1em;
+  --inputHeight: 2.6em;
+  --inputPaddingWidth: 0.7em;
+  --inputPaddingHeight: 0;
+  --inputPadding: var(--inputPaddingHeight) var(--inputPaddingWidth);
+
+  --inputBackground: var(--mainBackground);
+  --inputBackgroundDisabled: #ddd;
+  --inputText: var(--mainText);
+  --inputVague: #666;
+  --inputLine: var(--mainLine);
+  --inputLineHover: #5dade2;
+  --inputLineFocus: #2e8fc1;
+  --inputLineActive: #2c81ba;
+  --inputLineError: #c0392b;
+
+  /* BUTTONS */
+
+  --buttonFontSize: 1em;
+  --buttonHeight: 2.6em;
+  --buttonPadding: 0 1.2em 5px;
+  --buttonShadowSize: -5px;
+
+  --buttonBackground: #e5e8e8;
+  --buttonText: var(--mainText);
+  --buttonTextDisabled: #75828a;
+
+  --buttonLine: #a0aaab;
+  --buttonHover: #d7dbdd;
+  --buttonFocus: #d7dbdd;
+  --buttonActive: #c8cdd0;
+  --buttonDisabled: #c9cfcf;
+  --buttonShadow: #bbc3c3;
+
+  --buttonPulseHigh: #bbc2c3;
+  --buttonPulseLow: #e4e7e7;
+
+  --buttonRefresh: url(icons/refresh-black.svg);
+  --buttonCheck: url(icons/check-black.svg);
+}
