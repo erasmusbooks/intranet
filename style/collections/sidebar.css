@@ -1,29 +1,38 @@
-.sidebar {
+.sidebar nav {
+  --sidebarBackground: transparent;
+  --sidebarBorderColor: transparent;
+  --sidebarLinkColor: var(--linkColor);
+  --sidebarHeaderColor: var(--mainVague);
+  --sidebarSubnavBorderColor: var(--mainLine);
+  --sidebarSubnavLinkColor: var(--black);
+  --sidebarHoverBackground: var(--mainBackgroundLiteHover);
+  --sidebarActiveBackground: var(--blue);
+  --sidebarActiveText: var(--white);
+  background-color: var(--sidebarBackground);
+  border: 1px solid var(--sidebarBorderColor);
+  border-radius: 6px;
+  font-family: var(--utilityText);
+  padding: 1em;
+  margin-bottom: 1em;
+  transition: .3s top;
 }
 
 .sidebar ul {
   list-style-type: none;
-  padding: 0 1.5em .8em;
+  padding: 0;
   margin: 0;
 }
 
-.sidebar ul > h6 {
-  margin: 0 0 .4em;
-  font-size: 1rem;
+.sidebar h6 {
+  margin: 0 0 .2em;
+  font-size: 1.2rem;
   font-weight: 300;
   text-transform: uppercase;
-  color: var(--mainVague);
+  color: var(--sidebarHeaderColor);
 }
 
-.sidebar nav {
-  font-family: var(--utilityText);
-  display: grid;
-  grid-template-columns: 1;
-  padding: .5em 0;
-  transition: .3s top;
-}
-
-.sidebar nav a {
+.sidebar nav a, .sidebar nav .subnav > label {
+  color: var(--sidebarLinkColor);
   line-height: 1.5em !important;
   padding: .2em .4em;
   display: block;
@@ -31,16 +40,21 @@
   border-radius: 4px;
 }
 
-.sidebar nav a:hover, .sidebar nav a:focus {
-  background-color: var(--mainBackgroundLiteHover);
+.sidebar nav a:hover, .sidebar nav a:focus, .sidebar nav label:hover, .sidebar nav label:focus {
+  background-color: var(--sidebarHoverBackground);
 }
 
-.sidebar nav .active > a, .sidebar nav .current-menu-item > a {
-  color: var(--white);
-  background-color: var(--blue);
+.sidebar nav .active > a, .sidebar nav .active > label {
+  color: var(--sidebarActiveText);
+  background-color: var(--sidebarActiveBackground);
 }
 
-.sidebar nav .subnav > a .icon {
+
+.sidebar nav .subnav > input[type="checkbox"], .sidebar nav .subnav > label:after, .sidebar nav .subnav > label:before {
+  display: none;
+}
+
+.sidebar nav .subnav > label .icon {
   float: right;
   fill: var(--mainVague);
   height: 1.3em;
@@ -51,18 +65,18 @@
   transition: 0.2s transform;
 }
 
-.sidebar nav .subnav.active > a .icon, .sidebar nav .subnav.active > a:hover .icon, .sidebar nav .subnav.active > a:focus .icon {
-  fill: var(--white);
+.sidebar nav .subnav.active > label .icon, .sidebar nav .subnav.active > label:hover .icon, .sidebar nav .subnav.active > label:focus .icon {
+  fill: var(--sidebarActiveText);
 }
 
-.sidebar nav .subnav > a.hover .icon,
-.sidebar nav .subnav > a:hover .icon,
-.sidebar nav .subnav > a:focus .icon {
+.sidebar nav .subnav > label.hover .icon,
+.sidebar nav .subnav > label:hover .icon,
+.sidebar nav .subnav > label:focus .icon {
   fill: var(--black);
   pointer-events: none;
 }
 
-.sidebar nav .subnav.open > a .icon, .sidebar nav .subnav.auto-open > a .icon {
+.sidebar nav .subnav > input:checked + label .icon {
   transform: rotate(0deg);
 }
 
@@ -73,20 +87,87 @@
   padding-left: .5em;
   font-size: 0.9em;
   line-height: 1.3em;
-  border-left: 3px solid var(--mainLine);
+  border-left: 3px solid var(--sidebarSubnavBorderColor);
 }
 
-.sidebar nav .subnav.open > ul, 
-.sidebar nav .subnav.auto-open > ul, 
+.sidebar nav .subnav > input:checked + label + ul, 
 .sidebar nav .subnav > ul:focus-within {
   height: auto;
   margin: .4em 0 .4em .4em;
 }
 
 .sidebar nav .subnav > ul > li > a {
-  color: var(--mainText);
+  color: var(--sidebarSubnavLinkColor);
 }
 
-.sidebar nav .subnav > ul > li.active > a {
-  color: var(--white);
+.sidebar nav.yellow {
+  --sidebarBackground: #ffffce;
+  --sidebarBorderColor: #e6e600;
+  --sidebarLinkColor: var(--black);
+  --sidebarHeaderColor: #cccc00;
+  --sidebarSubnavBorderColor: var(--sidebarBorderColor);
+  --sidebarSubnavLinkColor: var(--black);
+  --sidebarHoverBackground: #ebebad;
+  --sidebarActiveBackground: #b9b92d;
+  --sidebarActiveText: var(--white);
+}
+
+.sidebar nav.blue {
+  --sidebarBackground: #e6f2ff;
+  --sidebarBorderColor: #80bdff;
+  --sidebarLinkColor: var(--black);
+  --sidebarHeaderColor: #66b0ff;
+  --sidebarSubnavBorderColor: var(--sidebarBorderColor);
+  --sidebarSubnavLinkColor: var(--black);
+  --sidebarHoverBackground: #b3d7ff;
+  --sidebarActiveBackground: #0056b3;
+  --sidebarActiveText: var(--white);
+}
+
+.sidebar nav.red {
+  --sidebarBackground: #e6ffcc;
+  --sidebarBorderColor: #ff9999;
+  --sidebarLinkColor: var(--black);
+  --sidebarHeaderColor: #ff8080;
+  --sidebarSubnavBorderColor: var(--sidebarBorderColor);
+  --sidebarSubnavLinkColor: var(--black);
+  --sidebarHoverBackground: #ff9999;
+  --sidebarActiveBackground: #e60000;
+  --sidebarActiveText: var(--white);
+}
+
+.sidebar nav.green {
+  --sidebarBackground: #e6f2ff;
+  --sidebarBorderColor: #80bdff;
+  --sidebarLinkColor: var(--black);
+  --sidebarHeaderColor: #66b0ff;
+  --sidebarSubnavBorderColor: var(--sidebarBorderColor);
+  --sidebarSubnavLinkColor: var(--black);
+  --sidebarHoverBackground: #b3d7ff;
+  --sidebarActiveBackground: #0056b3;
+  --sidebarActiveText: var(--white);
+}
+
+.sidebar nav.purple {
+  --sidebarBackground: #e6f2ff;
+  --sidebarBorderColor: #80bdff;
+  --sidebarLinkColor: var(--black);
+  --sidebarHeaderColor: #66b0ff;
+  --sidebarSubnavBorderColor: var(--sidebarBorderColor);
+  --sidebarSubnavLinkColor: var(--black);
+  --sidebarHoverBackground: #b3d7ff;
+  --sidebarActiveBackground: #0056b3;
+  --sidebarActiveText: var(--white);
+}
+
+.sidebar nav.gray {
+  --sidebarBackground: #e6f2ff;
+  --sidebarBorderColor: #80bdff;
+  --sidebarLinkColor: var(--black);
+  --sidebarHeaderColor: #66b0ff;
+  --sidebarSubnavBorderColor: var(--sidebarBorderColor);
+  --sidebarSubnavLinkColor: var(--black);
+  --sidebarHoverBackground: #b3d7ff;
+  --sidebarActiveBackground: #0056b3;
+  --sidebarActiveText: var(--white);
 }

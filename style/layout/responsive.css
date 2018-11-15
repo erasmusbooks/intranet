@@ -29,6 +29,7 @@
     font-size: var(--fontSize);
     line-height: var(--lineHeight);
     grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 1em;
   }
 
   .wrapper > .navbar {
@@ -37,6 +38,12 @@
 
   .wrapper > main {
     grid-column: 1 / 10;
+  }
+
+  .wrapper > main > article > section {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid var(--mainLine);
   }
 
   .wrapper > .sidebar {

@@ -3,7 +3,7 @@ ul {
   margin: var(--paragraphSpacer) 2em;
 }
 
-ol > ol, ul > ol, ul > ul, ol > ul {
+ol > ol, ul > ol, ul > ul, ol > ul, li > ol, li > ul {
   margin: 0 2em;
 }
 
