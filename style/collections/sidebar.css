@@ -120,7 +120,7 @@
   --sidebarSubnavBorderColor: var(--sidebarBorderColor);
   --sidebarSubnavLinkColor: var(--black);
   --sidebarHoverBackground: #b3d7ff;
-  --sidebarActiveBackground: #0056b3;
+  --sidebarActiveBackground: #2980d7;
   --sidebarActiveText: var(--white);
 }
 

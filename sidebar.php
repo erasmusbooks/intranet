@@ -1,6 +1,6 @@
 <aside class="sidebar">
   
-  <?php sidebarMenu('elements', 'yellow'); ?>
-  <?php sidebarMenu('collections', 'blue'); ?>
+  <?php sidebarMenu('documentation/elements', 'yellow'); ?>
+  <?php sidebarMenu('documentation/collections', 'blue'); ?>
 
 </aside>

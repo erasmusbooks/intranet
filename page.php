@@ -11,7 +11,7 @@
   <article>
     <?php while (have_posts()) : the_post(); ?>
 
-      <header><h3><?php the_title(); ?></h3></header>
+      <header><h2><?php the_title(); ?></h2></header>
      
       <?php if ($children) {
         ?>
@@ -23,7 +23,7 @@
         foreach ($children as $child) {
           ?>
             <section id="<?php echo $child->post_name; ?>">
-              <header><h4><?php echo $child->post_title; ?></h4></header>
+              <header><h3><?php echo $child->post_title; ?></h3></header>
 
               <?php echo $child->post_content; ?>
             </section>

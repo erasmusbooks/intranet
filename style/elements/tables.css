@@ -10,7 +10,7 @@ table,
 
 table th,
 .table th {
-  background-color: var(--mainBackgroundLite);
+  font-family: var(--utilityText);
 }
 
 table th,
@@ -30,7 +30,6 @@ table tr:hover td,
 
 table thead th,
 .table thead th {
-  font-family: var(--utilityText);
   border-top-width: 0;
   border-bottom: 2px solid var(--mainLine);
 }
