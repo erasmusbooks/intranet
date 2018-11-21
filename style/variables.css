@@ -11,9 +11,9 @@
 
   /* TYPOGRAPHY */
 
-  --blockText: 'IBM Plex Serif', Georgia, serif;
-  --utilityText: 'IBM Plex Sans', Calibri, Arial, Verdana, sans-serif;
-  --monoText: 'IBM Plex Mono', monospace;
+  --blockText: "IBM Plex Serif", Georgia, serif;
+  --utilityText: "IBM Plex Sans", Calibri, Arial, Verdana, sans-serif;
+  --monoText: "IBM Plex Mono", monospace;
 
   --fontFamily: var(--blockText);
   --fontSize: 15px;
@@ -33,9 +33,9 @@
 
   /* HEADER */
 
-  --headerBackground: var(--white);
+  --headerBackground: #efefef;
   --headerText: var(--black);
-  --headerLine: var(--mainLine);
+  --headerLine: #e6e6e6;
   --headerHeight: 70px;
 
   /* ASIDE */

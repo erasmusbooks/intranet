@@ -1,9 +1,8 @@
 .navbar {
   display: flex;
   flex-direction: row;
-  background-color: var(--headerBackground);
-  border: 0px solid var(--headerLine);
   height: var(--headerHeight);
+  margin: 0 0 2em;
 }
 
 .navbar .spacer {
@@ -12,12 +11,55 @@
 
 .navbar #brand > img {
   position: relative;
-  top: -4px;
-  width: calc(var(--headerHeight) * .9);
-  height: calc(var(--headerHeight) * .9);
+  top: calc(var(--inputHeight) / 2);
+  width: calc(var(--headerHeight) * 0.8);
+  height: calc(var(--headerHeight) * 0.8);
+  transform-origin: center;
+  transform: translateY(-50%);
+  border-radius: 6px;
 }
 
-.navbar .group, .navbar button {
-  margin-left: .5em;
+.navbar #brand svg {
+  width: calc(var(--headerHeight) * 0.8);
+  height: calc(var(--headerHeight) * 0.8);
+  position: relative;
+  top: calc(var(--inputHeight) / 2);
+  transform-origin: center;
+  transform: translateY(-50%);
+}
+
+.navbar > nav > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0 0 0 1em;
+}
+
+.navbar > nav > ul > li {
+  margin-right: 0.5em;
+  line-height: var(--inputHeight);
+}
+
+.navbar > nav > ul > li:last-child {
   margin-right: 0;
+}
+
+.navbar > .group,
+.navbar > button {
+  margin-left: 0.5em;
+  margin-right: 0;
+}
+
+.navbar .knobs a {
+  color: var(--mainText);
+  margin-right: 0;
+}
+
+.navbar .knobs a:hover,
+.navbar .knobs a:focus,
+.navbar .knobs a:active,
+.navbar .knobs .current-page-ancestor a,
+.navbar .knobs .current-menu-item a {
+  background-color: var(--mainBackground);
 }

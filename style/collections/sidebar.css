@@ -14,7 +14,7 @@
   font-family: var(--utilityText);
   padding: 1em;
   margin-bottom: 1em;
-  transition: .3s top;
+  transition: 0.3s top;
 }
 
 .sidebar ul {
@@ -24,33 +24,39 @@
 }
 
 .sidebar h6 {
-  margin: 0 0 .2em;
+  margin: 0 0 0.2em;
   font-size: 1.2rem;
   font-weight: 300;
   text-transform: uppercase;
   color: var(--sidebarHeaderColor);
 }
 
-.sidebar nav a, .sidebar nav .subnav > label {
+.sidebar nav a,
+.sidebar nav .subnav > label {
   color: var(--sidebarLinkColor);
   line-height: 1.5em !important;
-  padding: .2em .4em;
+  padding: 0.2em 0.4em;
   display: block;
   text-decoration: none;
   border-radius: 4px;
 }
 
-.sidebar nav a:hover, .sidebar nav a:focus, .sidebar nav label:hover, .sidebar nav label:focus {
+.sidebar nav a:hover,
+.sidebar nav a:focus,
+.sidebar nav label:hover,
+.sidebar nav label:focus {
   background-color: var(--sidebarHoverBackground);
 }
 
-.sidebar nav .active > a, .sidebar nav .active > label {
+.sidebar nav .active > a,
+.sidebar nav .active > label {
   color: var(--sidebarActiveText);
   background-color: var(--sidebarActiveBackground);
 }
 
-
-.sidebar nav .subnav > input[type="checkbox"], .sidebar nav .subnav > label:after, .sidebar nav .subnav > label:before {
+.sidebar nav .subnav > input[type="checkbox"],
+.sidebar nav .subnav > label:after,
+.sidebar nav .subnav > label:before {
   display: none;
 }
 
@@ -59,13 +65,15 @@
   fill: var(--mainVague);
   height: 1.3em;
   width: 1.3em;
-  margin-top: .1em;
+  margin-top: 0.1em;
   transform: rotate(180deg);
   transform-origin: center;
   transition: 0.2s transform;
 }
 
-.sidebar nav .subnav.active > label .icon, .sidebar nav .subnav.active > label:hover .icon, .sidebar nav .subnav.active > label:focus .icon {
+.sidebar nav .subnav.active > label .icon,
+.sidebar nav .subnav.active > label:hover .icon,
+.sidebar nav .subnav.active > label:focus .icon {
   fill: var(--sidebarActiveText);
 }
 
@@ -84,16 +92,16 @@
   padding: 0;
   height: 0;
   overflow: hidden;
-  padding-left: .5em;
+  padding-left: 0.5em;
   font-size: 0.9em;
   line-height: 1.3em;
   border-left: 3px solid var(--sidebarSubnavBorderColor);
 }
 
-.sidebar nav .subnav > input:checked + label + ul, 
+.sidebar nav .subnav > input:checked + label + ul,
 .sidebar nav .subnav > ul:focus-within {
   height: auto;
-  margin: .4em 0 .4em .4em;
+  margin: 0.4em 0 0.4em 0.4em;
 }
 
 .sidebar nav .subnav > ul > li > a {
@@ -125,49 +133,61 @@
 }
 
 .sidebar nav.red {
-  --sidebarBackground: #e6ffcc;
+  --sidebarBackground: #f5d9d6;
   --sidebarBorderColor: #ff9999;
   --sidebarLinkColor: var(--black);
   --sidebarHeaderColor: #ff8080;
   --sidebarSubnavBorderColor: var(--sidebarBorderColor);
   --sidebarSubnavLinkColor: var(--black);
-  --sidebarHoverBackground: #ff9999;
-  --sidebarActiveBackground: #e60000;
+  --sidebarHoverBackground: #eab4ae;
+  --sidebarActiveBackground: #cb4335;
   --sidebarActiveText: var(--white);
 }
 
 .sidebar nav.green {
-  --sidebarBackground: #e6f2ff;
-  --sidebarBorderColor: #80bdff;
+  --sidebarBackground: #d5f6e3;
+  --sidebarBorderColor: #43d680;
   --sidebarLinkColor: var(--black);
-  --sidebarHeaderColor: #66b0ff;
+  --sidebarHeaderColor: #28b463;
   --sidebarSubnavBorderColor: var(--sidebarBorderColor);
   --sidebarSubnavLinkColor: var(--black);
-  --sidebarHoverBackground: #b3d7ff;
-  --sidebarActiveBackground: #0056b3;
+  --sidebarHoverBackground: #abedc7;
+  --sidebarActiveBackground: #28b463;
   --sidebarActiveText: var(--white);
 }
 
 .sidebar nav.purple {
-  --sidebarBackground: #e6f2ff;
-  --sidebarBorderColor: #80bdff;
+  --sidebarBackground: #e6ccff;
+  --sidebarBorderColor: #cc99ff;
   --sidebarLinkColor: var(--black);
-  --sidebarHeaderColor: #66b0ff;
+  --sidebarHeaderColor: #9933ff;
   --sidebarSubnavBorderColor: var(--sidebarBorderColor);
   --sidebarSubnavLinkColor: var(--black);
-  --sidebarHoverBackground: #b3d7ff;
-  --sidebarActiveBackground: #0056b3;
+  --sidebarHoverBackground: #d9b3ff;
+  --sidebarActiveBackground: #9933ff;
+  --sidebarActiveText: var(--white);
+}
+
+.sidebar nav.orange {
+  --sidebarBackground: #ffd9cc;
+  --sidebarBorderColor: #ff9f80;
+  --sidebarLinkColor: var(--black);
+  --sidebarHeaderColor: #ff8c66;
+  --sidebarSubnavBorderColor: var(--sidebarBorderColor);
+  --sidebarSubnavLinkColor: var(--black);
+  --sidebarHoverBackground: #ffc6b3;
+  --sidebarActiveBackground: #ff6633;
   --sidebarActiveText: var(--white);
 }
 
 .sidebar nav.gray {
-  --sidebarBackground: #e6f2ff;
-  --sidebarBorderColor: #80bdff;
-  --sidebarLinkColor: var(--black);
-  --sidebarHeaderColor: #66b0ff;
+  --sidebarBackground: var(--mainBackgroundLite);
+  --sidebarBorderColor: var(--mainLine);
+  --sidebarLinkColor: var(--linkColor);
+  --sidebarHeaderColor: var(--mainVague);
   --sidebarSubnavBorderColor: var(--sidebarBorderColor);
   --sidebarSubnavLinkColor: var(--black);
-  --sidebarHoverBackground: #b3d7ff;
-  --sidebarActiveBackground: #0056b3;
+  --sidebarHoverBackground: var(--mainBackgroundLiteHover);
+  --sidebarActiveBackground: var(--blue);
   --sidebarActiveText: var(--white);
 }

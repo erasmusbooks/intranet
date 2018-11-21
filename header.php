@@ -14,25 +14,46 @@
 </head>
 <body>
 
-  <div class="wrapper">
+  <header class="navbar">
+    <a href="<?php echo home_url(); ?>" id="brand" title="<?php echo bloginfo('name') ?> - <?php echo bloginfo('description') ?>">
+       <img src="<?php echo get_template_directory_uri(); ?>/images/nausikaa.png">
+<!--         <svg>
+          <use xlink:href="<?php echo get_template_directory_uri(); ?>/icons/icons.svg#bookdude"></use>
+        </svg> -->
+    </a>
 
-    <header class="navbar">
-      <a href="<?php echo home_url(); ?>" id="brand" title="<?php echo bloginfo('name') ?> - <?php echo bloginfo('description') ?>">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/nausikaa.png">
-      </a>
+    <?php wp_nav_menu( array( 
+      'theme_location' => 'header-menu',
+      'container' => 'nav',
+      'container_class' => 'knobs transparent' 
+    ) ); ?>
 
-      <div class="spacer"></div>
-      
-      <div class="group">
+    <div class="spacer"></div>
+    
+    <form role="search" method="get" class="group" action="<?php echo home_url( '/' ); ?>" class="group">
+      <input id="s" name="s" class="prepend-icon" type="search" placeholder="Search..." value="<?php if (htmlspecialchars($_GET["s"])) echo htmlspecialchars($_GET["s"]); ?>">
+      <button type="submit" class="primary">
         <svg class="icon">
           <use xlink:href="<?php echo get_template_directory_uri(); ?>/icons/icons.svg#search"></use>
         </svg>
-        <input id="prepend-icon" class="prepend-icon" type="text">        
-      </div>
+      </button>        
+    </form>
 
-      <button class="primary">
-        </span>
-        Login        
-      </button>
+    <nav>
+      <ul>
+        <?php if (is_user_logged_in()) { ?>
+          <li class="knobs">
+            <a href="<?php echo admin_url(); ?>">Admin</a>              
+          </li>
+          <li>
+            <?php wp_loginout($_SERVER['REQUEST_URI']); ?>              
+          </li>
+        <?php } else { ?>
+          <li class="knobs">
+            <?php wp_loginout($_SERVER['REQUEST_URI']); ?>         
+          </li>
+        <?php } ?>
+      </ul>
+    </nav>
 
-    </header>
+  </header>

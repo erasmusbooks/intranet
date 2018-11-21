@@ -1,6 +1,11 @@
 <?php 
   add_theme_support( 'title-tag' );
 
+  function register_my_menu() {
+    register_nav_menu('header-menu',__( 'Header Menu' ));
+  }
+  add_action( 'init', 'register_my_menu' );
+
   function deregister_stuff() {
     wp_deregister_style( 'wp-block-library' );
     wp_deregister_style( 'wp-block-library-theme' );
@@ -20,7 +25,7 @@
     $pages = get_pages(array( 'child_of' => $parent->ID));
     usort($pages, 'sortPageOrder');
     ?>
-      <nav class="<?php if ($className) { echo $className; } ?>">
+      <nav class="<?php if ($className) { echo $className; }; if ($post->post_parent == $parent->ID) { echo ' active'; } ?>">
         <h6><?php echo $parent->post_title; ?></h6>
         <ul>
           <?php

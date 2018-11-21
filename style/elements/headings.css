@@ -33,3 +33,12 @@ h6 {
   font-size: 1.25rem;
   font-weight: 700;
 }
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  font-size: .8rem;
+}

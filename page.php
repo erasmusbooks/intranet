@@ -1,45 +1,22 @@
 
-<?php 
-  get_header(); 
-
-  $children = get_pages(array( 'child_of' => get_the_ID()));
-  usort($children, 'sortPageOrder');
-?>
+<?php get_header(); ?>
 
 <main role="main">
 
   <article>
     <?php while (have_posts()) : the_post(); ?>
 
-      <header><h2><?php the_title(); ?></h2></header>
+      <header>
+        <h2>
+          <?php the_title(); ?><?php edit_post_link('Edit', '<small> ', '</small>'); ?>
+        </h2>
+      </header>
      
-      <?php if ($children) {
-        ?>
-          <section>
-            <?php the_content(); ?>
-          </section>
-        <?php
-
-        foreach ($children as $child) {
-          ?>
-            <section id="<?php echo $child->post_name; ?>">
-              <header><h3><?php echo $child->post_title; ?></h3></header>
-
-              <?php echo $child->post_content; ?>
-            </section>
-          <?php
-        }
-      } else {
-          ?>
-          <section id="introduction">
-            <?php the_content(); ?>
-          </section>
-        <?php
-      } ?>
+      <section><?php the_content(); ?></section>
 
     <?php endwhile; ?>
   </article>
 
 </main>
 
-<?php get_sidebar(); get_footer(); ?>
+<?php get_footer(); ?>

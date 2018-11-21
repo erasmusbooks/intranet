@@ -30,17 +30,17 @@ a:visited {
   text-decoration: underline solid var(--linkVisited);
 }
 
-a.visited.visited-hover,
+a.visited.hover,
 a.visited:hover,
-a:visited.visited-hover,
+a:visited.hover,
 a:visited:hover {
   color: var(--linkHover);
   text-decoration: underline solid var(--linkVisited);
 }
 
-a.visited.visited-focus,
+a.visited.focus,
 a.visited:focus,
-a:visited.visited-focus,
+a:visited.focus,
 a:visited:focus {
   outline-width: 0;
   color: var(--linkActive);
@@ -48,9 +48,9 @@ a:visited:focus {
   outline: 1px dotted var(--mainVague);
 }
 
-a.visited.visited-active,
+a.visited.active,
 a.visited:active,
-a:visited.visited-active,
+a:visited.active,
 a:visited:active {
   color: var(--linkActive);
   text-decoration: underline solid var(--mainText);
@@ -60,3 +60,47 @@ a.button {
   text-decoration: none;
 }
 
+.knobs a,
+.knob {
+  display: inline-block;
+  font-family: var(--utilityText);
+  height: var(--inputHeight);
+  line-height: var(--inputHeight);
+  padding: 0 1em;
+  margin: 0 0.4rem 0.4rem 0;
+  background-color: var(--mainBackgroundLite);
+  color: var(--mainVague);
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.knobs a:hover,
+.knob:hover,
+.knobs a.hover,
+.knob.hover {
+  text-decoration: none;
+  background-color: var(--mainBackgroundLiteHover);
+  color: var(--mainText);
+}
+
+.knobs a:focus,
+.knob:focus,
+.knobs a.focus,
+.knob.focus {
+  text-decoration: none;
+  background-color: var(--mainBackgroundLiteHover);
+  color: var(--mainText);
+}
+
+.knobs a:active,
+.knob:active,
+.knobs a.active,
+.knob.active,
+.knobs .current-page-ancestor a,
+.current-page-ancestor .knob,
+.knobs .current-menu-item a,
+.current-menu-item .knob {
+  text-decoration: none;
+  background-color: var(--mainVague);
+  color: var(--white);
+}
