@@ -31,25 +31,28 @@
     <div class="spacer"></div>
     
     <form role="search" method="get" class="group" action="<?php echo home_url( '/' ); ?>" class="group">
+      <svg class="icon">
+        <use xlink:href="<?php echo get_template_directory_uri(); ?>/icons/icons.svg#search"></use>
+      </svg>
       <input id="s" name="s" class="prepend-icon" type="search" placeholder="Search..." value="<?php if (htmlspecialchars($_GET["s"])) echo htmlspecialchars($_GET["s"]); ?>">
-      <button type="submit" class="primary">
+<!--       <button type="submit" class="primary">
         <svg class="icon">
           <use xlink:href="<?php echo get_template_directory_uri(); ?>/icons/icons.svg#search"></use>
         </svg>
-      </button>        
+      </button>   -->      
     </form>
 
     <nav>
       <ul>
         <?php if (is_user_logged_in()) { ?>
-          <li class="knobs">
+          <li>
             <a href="<?php echo admin_url(); ?>">Admin</a>              
           </li>
           <li>
             <?php wp_loginout($_SERVER['REQUEST_URI']); ?>              
           </li>
         <?php } else { ?>
-          <li class="knobs">
+          <li >
             <?php wp_loginout($_SERVER['REQUEST_URI']); ?>         
           </li>
         <?php } ?>

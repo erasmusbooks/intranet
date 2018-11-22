@@ -19,13 +19,13 @@
     return ($a->menu_order < $b->menu_order) ? -1 : 1;
   }
 
-  function sidebarMenu($slug, $className = false) {
+  function navPanel($slug, $className = false) {
     global $post;
     $parent = get_page_by_path($slug);
     $pages = get_pages(array( 'child_of' => $parent->ID));
     usort($pages, 'sortPageOrder');
     ?>
-      <nav class="<?php if ($className) { echo $className; }; if ($post->post_parent == $parent->ID) { echo ' active'; } ?>">
+      <nav class="nav-panel <?php if ($className) { echo $className; }; ?>">
         <h6><?php echo $parent->post_title; ?></h6>
         <ul>
           <?php

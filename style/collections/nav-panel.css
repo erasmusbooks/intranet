@@ -1,0 +1,193 @@
+.nav-panel {
+  --sidebarBackground: transparent;
+  --sidebarBorderColor: transparent;
+  --sidebarLinkColor: var(--linkColor);
+  --sidebarHeaderColor: var(--mainVague);
+  --sidebarSubnavBorderColor: var(--mainLine);
+  --sidebarSubnavLinkColor: var(--black);
+  --sidebarHoverBackground: var(--mainBackgroundLiteHover);
+  --sidebarActiveBackground: var(--blue);
+  --sidebarActiveText: var(--white);
+  background-color: var(--sidebarBackground);
+  border: 1px solid var(--sidebarBorderColor);
+  border-radius: 6px;
+  font-family: var(--utilityText);
+  padding: 1em;
+  margin-bottom: 1em;
+  transition: 0.3s top;
+}
+
+.nav-panel ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-panel h6 {
+  margin: 0 0 0.2em;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: var(--sidebarHeaderColor);
+}
+
+.nav-panel a,
+.nav-panel .subnav > label {
+  color: var(--sidebarLinkColor);
+  line-height: 1.5em !important;
+  padding: 0.2em 0.4em;
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.nav-panel a:hover,
+.nav-panel a:focus,
+.nav-panel label:hover,
+.nav-panel label:focus {
+  background-color: var(--sidebarHoverBackground);
+}
+
+.nav-panel .active > a,
+.nav-panel .active > label {
+  color: var(--sidebarActiveText);
+  background-color: var(--sidebarActiveBackground);
+}
+
+.nav-panel .subnav > input[type="checkbox"],
+.nav-panel .subnav > label:after,
+.nav-panel .subnav > label:before {
+  display: none;
+}
+
+.nav-panel .subnav > label .icon {
+  float: right;
+  fill: var(--mainVague);
+  height: 1.3em;
+  width: 1.3em;
+  margin-top: 0.1em;
+  transform: rotate(180deg);
+  transform-origin: center;
+  transition: 0.2s transform;
+}
+
+.nav-panel .subnav.active > label .icon,
+.nav-panel .subnav.active > label:hover .icon,
+.nav-panel .subnav.active > label:focus .icon {
+  fill: var(--sidebarActiveText);
+}
+
+.nav-panel .subnav > label.hover .icon,
+.nav-panel .subnav > label:hover .icon,
+.nav-panel .subnav > label:focus .icon {
+  fill: var(--black);
+  pointer-events: none;
+}
+
+.nav-panel .subnav > input:checked + label .icon {
+  transform: rotate(0deg);
+}
+
+.nav-panel .subnav > ul {
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+  padding-left: 0.5em;
+  font-size: 0.9em;
+  line-height: 1.3em;
+  border-left: 3px solid var(--sidebarSubnavBorderColor);
+}
+
+.nav-panel .subnav > input:checked + label + ul,
+.nav-panel .subnav > ul:focus-within {
+  height: auto;
+  margin: 0.4em 0 0.4em 0.4em;
+}
+
+.nav-panel .subnav > ul > li > a {
+  color: var(--sidebarSubnavLinkColor);
+}
+
+.nav-panel.yellow {
+  --sidebarBackground: #ffffce;
+  --sidebarBorderColor: #e6e600;
+  --sidebarLinkColor: var(--black);
+  --sidebarHeaderColor: #cccc00;
+  --sidebarSubnavBorderColor: var(--sidebarBorderColor);
+  --sidebarSubnavLinkColor: var(--black);
+  --sidebarHoverBackground: #ebebad;
+  --sidebarActiveBackground: #b9b92d;
+  --sidebarActiveText: var(--white);
+}
+
+.nav-panel.blue {
+  --sidebarBackground: #e6f2ff;
+  --sidebarBorderColor: #80bdff;
+  --sidebarLinkColor: var(--black);
+  --sidebarHeaderColor: #66b0ff;
+  --sidebarSubnavBorderColor: var(--sidebarBorderColor);
+  --sidebarSubnavLinkColor: var(--black);
+  --sidebarHoverBackground: #b3d7ff;
+  --sidebarActiveBackground: #2980d7;
+  --sidebarActiveText: var(--white);
+}
+
+.nav-panel.red {
+  --sidebarBackground: #f5d9d6;
+  --sidebarBorderColor: #ff9999;
+  --sidebarLinkColor: var(--black);
+  --sidebarHeaderColor: #ff8080;
+  --sidebarSubnavBorderColor: var(--sidebarBorderColor);
+  --sidebarSubnavLinkColor: var(--black);
+  --sidebarHoverBackground: #eab4ae;
+  --sidebarActiveBackground: #cb4335;
+  --sidebarActiveText: var(--white);
+}
+
+.nav-panel.green {
+  --sidebarBackground: #d5f6e3;
+  --sidebarBorderColor: #43d680;
+  --sidebarLinkColor: var(--black);
+  --sidebarHeaderColor: #28b463;
+  --sidebarSubnavBorderColor: var(--sidebarBorderColor);
+  --sidebarSubnavLinkColor: var(--black);
+  --sidebarHoverBackground: #abedc7;
+  --sidebarActiveBackground: #28b463;
+  --sidebarActiveText: var(--white);
+}
+
+.nav-panel.purple {
+  --sidebarBackground: #e6ccff;
+  --sidebarBorderColor: #cc99ff;
+  --sidebarLinkColor: var(--black);
+  --sidebarHeaderColor: #9933ff;
+  --sidebarSubnavBorderColor: var(--sidebarBorderColor);
+  --sidebarSubnavLinkColor: var(--black);
+  --sidebarHoverBackground: #d9b3ff;
+  --sidebarActiveBackground: #9933ff;
+  --sidebarActiveText: var(--white);
+}
+
+.nav-panel.orange {
+  --sidebarBackground: #ffd9cc;
+  --sidebarBorderColor: #ff9f80;
+  --sidebarLinkColor: var(--black);
+  --sidebarHeaderColor: #ff8c66;
+  --sidebarSubnavBorderColor: var(--sidebarBorderColor);
+  --sidebarSubnavLinkColor: var(--black);
+  --sidebarHoverBackground: #ffc6b3;
+  --sidebarActiveBackground: #ff6633;
+  --sidebarActiveText: var(--white);
+}
+
+.nav-panel.gray {
+  --sidebarBackground: var(--mainBackgroundLite);
+  --sidebarBorderColor: var(--mainLine);
+  --sidebarLinkColor: var(--linkColor);
+  --sidebarHeaderColor: var(--mainVague);
+  --sidebarSubnavBorderColor: var(--sidebarBorderColor);
+  --sidebarSubnavLinkColor: var(--black);
+  --sidebarHoverBackground: var(--mainBackgroundLiteHover);
+  --sidebarActiveBackground: var(--blue);
+  --sidebarActiveText: var(--white);
+}
