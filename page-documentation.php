@@ -10,7 +10,7 @@
 
 ?>
 
-<main role="main" class="<?php if ($isDocs) { echo "sidebar-right"; } ?>">
+<main role="main" class="sidebar-right">
 
   <article>
     <?php while (have_posts()) : the_post(); ?>
@@ -44,7 +44,7 @@
     <?php endwhile; ?>
   </article>
 
-  <?php if ($isDocs) { get_sidebar('documentation'); } ?>
+  <?php get_sidebar('documentation'); ?>
 
 </main>
 

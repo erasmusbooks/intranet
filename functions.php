@@ -1,6 +1,17 @@
 <?php 
   add_theme_support( 'title-tag' );
 
+  function remove_admin_login_header() {
+      remove_action('wp_head', '_admin_bar_bump_cb');
+  }
+  add_action('get_header', 'remove_admin_login_header');
+
+  function reset_permalinks() {
+    global $wp_rewrite;
+    $wp_rewrite->set_permalink_structure( '/%postname%/' );
+  }
+  add_action( 'init', 'reset_permalinks' );
+
   function register_my_menu() {
     register_nav_menu('header-menu',__( 'Header Menu' ));
   }
@@ -62,7 +73,7 @@
                 } else {
                   ?>
                     <li class="<?php if ($post->ID == $page->ID) { echo 'active'; } ?>">
-                      <a href="<?php echo $page->guid; ?>"><?php echo $page->post_title; ?></a>
+                      <a href="<?php echo get_permalink($page->ID); ?>"><?php echo $page->post_title; ?></a>
                     </li>
                   <?php
                 }
