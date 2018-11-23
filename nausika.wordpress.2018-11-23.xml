@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.9.8" created="2018-11-21 16:07" -->
+<!-- generator="WordPress/4.9.8" created="2018-11-23 13:08" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Nausikaä</title>
 	<link>http://localhost/nausikaa</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Wed, 21 Nov 2018 16:07:39 +0000</pubDate>
+	<pubDate>Fri, 23 Nov 2018 13:08:33 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost/nausikaa</wp:base_site_url>
@@ -3182,7 +3182,7 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/nausikaa/2018/11/20/266/</link>
+		<link>http://localhost/nausikaa/266/</link>
 		<pubDate>Tue, 20 Nov 2018 11:05:47 +0000</pubDate>
 		<dc:creator><![CDATA[mibdw]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/nausikaa/?p=266</guid>
@@ -3237,7 +3237,7 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/nausikaa/2018/11/21/298/</link>
+		<link>http://localhost/nausikaa/298/</link>
 		<pubDate>Wed, 21 Nov 2018 08:17:34 +0000</pubDate>
 		<dc:creator><![CDATA[mibdw]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/nausikaa/?p=298</guid>
@@ -3292,7 +3292,7 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 	</item>
 	<item>
 		<title></title>
-		<link>http://localhost/nausikaa/2018/11/21/299/</link>
+		<link>http://localhost/nausikaa/299/</link>
 		<pubDate>Wed, 21 Nov 2018 08:17:34 +0000</pubDate>
 		<dc:creator><![CDATA[mibdw]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/nausikaa/?p=299</guid>
@@ -3753,7 +3753,20 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:parapgraph -->
 <p><button>Default</button> <button class="hover">Hover</button> <button class="focus">Focus</button> <button class="active">Active</button> <button disabled="disabled">Disabled</button> <button><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg></button></p>
-<!-- /wp:parapgraph -->]]></content:encoded>
+<!-- /wp:parapgraph -->
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;button>Default&lt;/button>
+&lt;button class="hover">Hover&lt;/button>
+&lt;button class="focus">Focus&lt;/button>
+&lt;button class="active">Active&lt;/button>
+&lt;button disabled="disabled">Disabled&lt;/button>
+&lt;button>
+  &lt;svg class="icon">
+    &lt;use xlink:href="...">&lt;/use>
+  &lt;/svg>
+&lt;/button></code></pre>
+<!-- /wp:code -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>94</wp:post_id>
 		<wp:post_date><![CDATA[2018-11-14 09:03:15]]></wp:post_date>
@@ -3813,7 +3826,20 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 
 <!-- wp:paragraph -->
 <p><var>f</var>(<var>x</var>) = <var>a</var><sub>0</sub> + <var>a</var><sub>1</sub><var>x</var> +<var>a</var><sub>2</sub><var>x</var><sup>2</sup>, where <var>a</var><sup>2</sup> ≠ 0</p>
-<!-- /wp:paragraph -->]]></content:encoded>
+<!-- /wp:paragraph -->
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>You can use the mark tag to &lt;mark>highlight&lt;/mark> text
+&lt;del>This line of text is meant to be treated as deleted text.&lt;/del>
+&lt;s>This line of text is meant to be treated as no longer accurate.&lt;/s>
+&lt;ins>This line of text is meant to be treated as an addition to the document.&lt;/ins>
+&lt;u>This line of text will render as underlined&lt;/u>
+&lt;small>This line of text is meant to be treated as fine print.&lt;/small>
+&lt;strong>This line rendered as bold text.&lt;/strong>
+&lt;em>This line rendered as italicized text.&lt;/em>
+&lt;var>f&lt;/var>(&lt;var>x&lt;/var>) = &lt;var>a&lt;/var>&lt;sub>0&lt;/sub> + &lt;var>a&lt;/var>&lt;sub>1&lt;/sub>&lt;var>x&lt;/var> +&lt;var>a&lt;/var>&lt;sub>2&lt;/sub>&lt;var>x&lt;/var>&lt;sup>2&lt;/sup>, where &lt;var>a&lt;/var>&lt;sup>2&lt;/sup> ≠ 0
+</code></pre>
+<!-- /wp:code -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>100</wp:post_id>
 		<wp:post_date><![CDATA[2018-11-15 08:23:08]]></wp:post_date>
@@ -3839,9 +3865,23 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 		<dc:creator><![CDATA[mibdw]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=102</guid>
 		<description></description>
-		<content:encoded><![CDATA[<blockquote><strong>Blockquote</strong> lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam eveniet eius sapiente rerum nesciunt magni neque officia aperiam, enim minus quaerat ipsum, ea suscipit. Iure eligendi placeat voluptatum beatae a.
+		<content:encoded><![CDATA[<blockquote>
+<p><strong>Blockquote</strong> lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam eveniet eius sapiente rerum nesciunt magni neque officia aperiam, enim minus quaerat ipsum, ea suscipit. Iure eligendi placeat voluptatum beatae a.</p>
+<footer>Someone famous in <cite title="Source">Cite Source</cite></footer>
+</blockquote>
 
-<footer>Someone famous in <cite title="Source">Cite Source</cite></footer></blockquote>]]></content:encoded>
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;blockquote>
+  &lt;p>&lt;strong>Blockquote&lt;/strong> ... &lt;/p>
+  &lt;footer>
+    Someone famous in &lt;cite title="Source">Cite Source&lt;/cite>
+  &lt;/footer>
+&lt;/blockquote></code></pre>
+<!-- /wp:code -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>102</wp:post_id>
 		<wp:post_date><![CDATA[2018-11-15 08:40:41]]></wp:post_date>
@@ -3868,57 +3908,92 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=104</guid>
 		<description></description>
 		<content:encoded><![CDATA[<ul>
- 	<li>Orange</li>
- 	<li>Apple
+<li>Orange</li>
+<li>Apple
 <ul>
- 	<li>Tomato</li>
- 	<li>Eggplant</li>
- 	<li>Potato</li>
- 	<li>Cucumber
+<li>Tomato</li>
+<li>Eggplant</li>
+<li>Potato</li>
+<li>Cucumber
 <ul>
- 	<li>Chickpea</li>
- 	<li>Peanut</li>
- 	<li>Green bean</li>
- 	<li>Kidney bean</li>
- 	<li>Tamarind</li>
+<li>Chickpea</li>
+<li>Peanut</li>
+<li>Green bean</li>
+<li>Kidney bean</li>
+<li>Tamarind</li>
 </ul>
 </li>
- 	<li>Soybean</li>
+<li>Soybean</li>
 </ul>
 </li>
- 	<li>Rasberry</li>
- 	<li>Blueberry</li>
- 	<li>Cherry</li>
+<li>Rasberry</li>
+<li>Blueberry</li>
+<li>Cherry</li>
 </ul>
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;ul>
+  &lt;li>...&lt;/li>
+  &lt;li>
+    ...
+    &lt;ul>
+      &lt;li>...&lt;/li>
+      &lt;li>...&lt;/li>
+      &lt;li>...&lt;/li>
+      &lt;li>...&lt;/li>
+    &lt;ul>
+  &lt;/li>
+  &lt;li>...&lt;/li>
+  &lt;li>...&lt;/li>
+&lt;/ul></code></pre>
+<!-- /wp:code -->
+
 <ol>
- 	<li>Agamemnon</li>
- 	<li>Patroclus</li>
- 	<li>Diomedes</li>
- 	<li>Nestor
+<li>Agamemnon</li>
+<li>Patroclus</li>
+<li>Diomedes</li>
+<li>Nestor
 <ol>
- 	<li>Priam</li>
- 	<li>Hector</li>
- 	<li>Paris
+<li>Priam</li>
+<li>Hector</li>
+<li>Paris
 <ol>
- 	<li>Athena</li>
- 	<li>Zeus</li>
- 	<li>Eris</li>
- 	<li>Poseidon</li>
- 	<li>Hephaestus</li>
- 	<li>Hermes</li>
- 	<li>Hera</li>
- 	<li>Apollo</li>
- 	<li>Scamander</li>
+<li>Athena</li>
+<li>Zeus</li>
+<li>Eris</li>
+<li>Poseidon</li>
+<li>Hephaestus</li>
+<li>Hermes</li>
+<li>Hera</li>
+<li>Apollo</li>
+<li>Scamander</li>
 </ol>
 </li>
- 	<li>Hecuba</li>
- 	<li>Aeneas</li>
- 	<li>Cassandra</li>
+<li>Hecuba</li>
+<li>Aeneas</li>
+<li>Cassandra</li>
 </ol>
 </li>
- 	<li>Odysseus</li>
- 	<li>Menelaus</li>
-</ol>]]></content:encoded>
+<li>Odysseus</li>
+<li>Menelaus</li>
+</ol>
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;ol>
+  &lt;li>...&lt;/li>
+  &lt;li>
+    ...
+    &lt;ol>
+      &lt;li>...&lt;/li>
+      &lt;li>...&lt;/li>
+      &lt;li>...&lt;/li>
+      &lt;li>...&lt;/li>
+    &lt;ol>
+  &lt;/li>
+  &lt;li>...&lt;/li>
+  &lt;li>...&lt;/li>
+&lt;/ol></code></pre>
+<!-- /wp:code -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>104</wp:post_id>
 		<wp:post_date><![CDATA[2018-11-15 08:56:10]]></wp:post_date>
@@ -3945,40 +4020,38 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=107</guid>
 		<description></description>
 		<content:encoded><![CDATA[<dl>
- 	<dt>Kick</dt>
- 	<dd>808</dd>
- 	<dt>Snare</dt>
- 	<dd>909</dd>
+<dt>Kick</dt>
+<dd>808</dd>
+<dt>Snare</dt>
+<dd>909</dd>
 </dl>
 <dl>
- 	<dt>Maine</dt>
- 	<dd>Augusta</dd>
- 	<dt>California</dt>
- 	<dd>Sacremento</dd>
- 	<dt>Oregon</dt>
- 	<dd>Salem</dd>
- 	<dt>New York</dt>
- 	<dd>Albany</dd>
+<dt>Maine</dt>
+<dd>Augusta</dd>
+<dt>California</dt>
+<dd>Sacremento</dd>
+<dt>Oregon</dt>
+<dd>Salem</dd>
+<dt>New York</dt>
+<dd>Albany</dd>
 </dl>
 <dl>
- 	<dt>Ascender</dt>
- 	<dd>The part of certain lowercase letters that extends above the
-x-height of a font.</dd>
- 	<dt>Font</dt>
- 	<dd>Traditionally, a complete set of characters for one typeface at
-one particular type size. Often used more loosely as a synonym for
-"typeface".</dd>
- 	<dt>Golden Section</dt>
- 	<dd>The ideal proportion according to the ancient Greeks. It is
-visualized as the division of a line into two unequal segments in
-such a way that the ratio of the smaller segment to the larger
-segment is equal to the ratio of the larger to the whole. It is
-usually defined as 21:34, that is, 21/34 and 34/(21+34) both equal
-approximately 0.618. A rectangle whose sides are of this
-proportion is called a "golden rectangle". Golden rectangles can
-be found in the proportions of the Parthenon and many medieval
-manuscripts.</dd>
-</dl>]]></content:encoded>
+<dt>Ascender</dt>
+<dd>The part of certain lowercase letters that extends above the<br>x-height of a font.</dd>
+<dt>Font</dt>
+<dd>Traditionally, a complete set of characters for one typeface at<br>one particular type size. Often used more loosely as a synonym for<br>"typeface".</dd>
+<dt>Golden Section</dt>
+<dd>The ideal proportion according to the ancient Greeks. It is<br>visualized as the division of a line into two unequal segments in<br>such a way that the ratio of the smaller segment to the larger<br>segment is equal to the ratio of the larger to the whole. It is<br>usually defined as 21:34, that is, 21/34 and 34/(21+34) both equal<br>approximately 0.618. A rectangle whose sides are of this<br>proportion is called a "golden rectangle". Golden rectangles can<br>be found in the proportions of the Parthenon and many medieval<br>manuscripts.</dd>
+</dl>
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;dl>
+  &lt;dt>...&lt;/dt>
+  &lt;dd>...&lt;/dd>
+  &lt;dt>...&lt;/dt>
+  &lt;dd>...&lt;/dd>
+&lt;/dl></code></pre>
+<!-- /wp:code -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>107</wp:post_id>
 		<wp:post_date><![CDATA[2018-11-15 09:02:30]]></wp:post_date>
@@ -4009,7 +4082,14 @@ manuscripts.</dd>
 <button class="secondary">Secondary</button> <button class="secondary hover">Hover</button> <button class="secondary focus">Focus</button> <button class="secondary active">Active</button> <button class="secondary" disabled="disabled">Disabled</button> <button class="secondary"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg></button><br>
 <button class="positive">Positive</button> <button class="positive hover">Hover</button> <button class="positive focus">Focus</button> <button class="positive active">Active</button> <button class="positive" disabled="disabled">Disabled</button> <button class="positive"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg></button><br>
 <button class="negative">Negative</button> <button class="negative hover">Hover</button> <button class="negative focus">Focus</button> <button class="negative active">Active</button> <button class="negative" disabled="disabled">Disabled</button> <button class="negative"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg></button>
-<!-- /wp:parapgraph -->]]></content:encoded>
+<!-- /wp:parapgraph -->
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;button class="primary">Primary&lt;/button>
+&lt;button class="secondary">Secondary&lt;/button>
+&lt;button class="positive">Positive&lt;/button>
+&lt;button class="negative">Negative&lt;/button></code></pre>
+<!-- /wp:code -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>119</wp:post_id>
 		<wp:post_date><![CDATA[2018-11-15 15:47:00]]></wp:post_date>
@@ -4051,7 +4131,12 @@ manuscripts.</dd>
         <button class="negative loading success">Success</button>
 
         <br>
-<!-- /wp:parapgraph -->]]></content:encoded>
+<!-- /wp:parapgraph -->
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;button class="loading">...&lt;/button>
+&lt;button class="loading success ">...&lt;/button></code></pre>
+<!-- /wp:code -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>125</wp:post_id>
 		<wp:post_date><![CDATA[2018-11-15 15:54:53]]></wp:post_date>
@@ -4085,7 +4170,20 @@ manuscripts.</dd>
 <button class="positive"><span class="label">  <svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg></span>Labeled</button><button class="positive"><span class="label">Label</span>Text</button><button class="positive loading"><span class="label">  <svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg></span>Labeled</button><br>
 <button class="negative"><span class="label">  <svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg></span>Labeled</button><button class="negative"><span class="label">Label</span>Text</button><button class="negative loading"><span class="label">  <svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg></span>Labeled</button></p>
 
-<!-- wp:parapgraph /-->]]></content:encoded>
+<!-- wp:parapgraph /-->
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;button>
+  &lt;span class="label">
+    &lt;svg class="icon">&lt;use xlink:href="...">&lt;/use>&lt;/svg>
+  &lt;/span>
+  ...
+&lt;/button>
+&lt;button>
+  &lt;span class="label">Label&lt;/span>
+  ...
+&lt;/button></code></pre>
+<!-- /wp:code -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>129</wp:post_id>
 		<wp:post_date><![CDATA[2018-11-16 08:39:00]]></wp:post_date>
@@ -4122,7 +4220,15 @@ manuscripts.</dd>
 <!-- /wp:paragraph -->
 
 <!-- wp:code -->
-<pre class="wp-block-code"><code>Hello</code></pre>
+<pre class="wp-block-code"><code>&lt;button class="mini">...&lt;/button>
+&lt;button class="small">...&lt;/button>
+&lt;button class="medium">...&lt;/button>
+&lt;button>...&lt;/button>
+&lt;button class="large">...&lt;/button>
+&lt;button class="big">...&lt;/button>
+&lt;button class="huge">...&lt;/button>
+&lt;button class="massive">...&lt;/button>
+</code></pre>
 <!-- /wp:code -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>133</wp:post_id>
@@ -4151,7 +4257,16 @@ manuscripts.</dd>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
 <p> <div class="group"><button>One</button><button>Two</button><button>Three</button><button disabled>Four</button></div><br><div class="group"><button class="primary">One</button><button class="primary">Two</button><button class="primary">Three</button><button class="primary" disabled>Four</button></div><br><div class="group"><button class="secondary">One</button><button class="secondary">Two</button><button class="secondary">Three</button><button class="secondary" disabled>Four</button></div><br><div class="group"><button class="positive">One</button><button class="positive">Two</button><button class="positive">Three</button><button class="positive" disabled>Four</button></div><br><div class="group"><button class="negative">One</button><button class="negative">Two</button><button class="negative">Three</button><button class="negative" disabled>Four</button></div><br><div class="group"><button class="primary">One</button><button class="primary hover">Two</button><button class="primary focus">Three</button><button class="primary active">Four</button><button class="primary" disabled>Five</button><button class="primary loading">Six</button></div><br><div class="group"><button>One</button><button class="primary">Two</button><button class="secondary">Three</button><button class="positive">Four</button><button class="negative">Five</button></div><br><div class="group"><button><span class="label"> <svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#clear"></use></svg></span>Decline</button><button class="positive"><span class="label"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#check"></use></svg></span>Approve</button></div></p>
-<!-- /wp:paragraph -->]]></content:encoded>
+<!-- /wp:paragraph -->
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;div class="group">
+  &lt;button>...&lt;/button>
+  &lt;button>...&lt;/button>
+  &lt;button>...&lt;/button>
+  &lt;button disabled>...&lt;/button>
+&lt;/div></code></pre>
+<!-- /wp:code -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>136</wp:post_id>
 		<wp:post_date><![CDATA[2018-11-16 08:45:11]]></wp:post_date>
@@ -4177,7 +4292,25 @@ manuscripts.</dd>
 		<dc:creator><![CDATA[mibdw]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=140</guid>
 		<description></description>
-		<content:encoded><![CDATA[<div class="basic-form"><label for="normal">Text</label><input type="text" placeholder="Placeholder text" id="normal"><label for="disabled">Disabled</label><input type="text" placeholder="Disabled placeholder text" id="disabled" disabled=""><label for="readonly">Read only</label><input type="text" value="Read only text" id="readonly" readonly=""><label for="required">Required</label><input type="text" placeholder="Required placeholder text" id="required" required=""><small class="help error">Error messages where appropriate</small><label for="password">Password</label><input type="password" id="password"><small class="help">Help messages where appropriate.</small><label for="tel">Telephone</label><input type="tel" id="tel"><label for="email">Email</label><input type="email" id="email" placeholder="name@example.com"><label for="url">URL</label><input type="url" id="url" placeholder="http://example.com"><label for="search">Search</label><input type="search" id="search"><label for="date">Date</label><input type="date" id="date"><label for="time">Time</label><input type="time" id="time"><label for="datetime-local">Datetime local</label><input type="datetime-local" id="datetime-local"><small class="help">Help messages where appropriate.</small><label for="week">Week</label><input type="week" id="week"><label for="month">Month</label><input type="month" id="month"><label for="number">Number</label><input type="number" id="number"></div>]]></content:encoded>
+		<content:encoded><![CDATA[<div class="basic-form"><label for="normal">Text</label><input type="text" placeholder="Placeholder text" id="normal"><label for="disabled">Disabled</label><input type="text" placeholder="Disabled placeholder text" id="disabled" disabled=""><label for="readonly">Read only</label><input type="text" value="Read only text" id="readonly" readonly=""><label for="required">Required</label><input type="text" placeholder="Required placeholder text" id="required" required=""><small class="help error">Error messages where appropriate</small><label for="password">Password</label><input type="password" id="password"><small class="help">Help messages where appropriate.</small><label for="tel">Telephone</label><input type="tel" id="tel"><label for="email">Email</label><input type="email" id="email" placeholder="name@example.com"><label for="url">URL</label><input type="url" id="url" placeholder="http://example.com"><label for="search">Search</label><input type="search" id="search"><label for="date">Date</label><input type="date" id="date"><label for="time">Time</label><input type="time" id="time"><label for="datetime-local">Datetime local</label><input type="datetime-local" id="datetime-local"><small class="help">Help messages where appropriate.</small><label for="week">Week</label><input type="week" id="week"><label for="month">Month</label><input type="month" id="month"><label for="number">Number</label><input type="number" id="number"></div>
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;input type="text">
+&lt;input type="text" disabled>
+&lt;input type="text" readonly>
+&lt;input type="text" required>
+&lt;input type="password">
+&lt;input type="tel">
+&lt;input type="email">
+&lt;input type="url">
+&lt;input type="search">
+&lt;input type="date">
+&lt;input type="time">
+&lt;input type="datetime-local">
+&lt;input type="week">
+&lt;input type="month">
+&lt;input type="number"></code></pre>
+<!-- /wp:code -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>140</wp:post_id>
 		<wp:post_date><![CDATA[2018-11-16 08:51:50]]></wp:post_date>
@@ -4203,13 +4336,36 @@ manuscripts.</dd>
 		<dc:creator><![CDATA[mibdw]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=143</guid>
 		<description></description>
-		<content:encoded><![CDATA[<div class="basic-form"><label for="append-button">Append button</label>
-<div class="group"><input type="text" id="append-button"><button class="positive"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#cart"></use></svg></button></div>
-<label for="multiple-append">Multiple append</label>
-<div class="group"><input type="text" id="multiple-append"><button>Neutral</button><button class="secondary">Secondary</button></div>
-<label for="append-prepend">Prepend button</label>
-<div class="group"><button class="primary">Front</button><input type="text" id="append-prepend"><button class="negative">Back</button></div>
-</div>]]></content:encoded>
+		<content:encoded><![CDATA[<div class="basic-form">
+  <label for="append-button">Append button</label>
+  <div class="group">
+    <input type="text" id="append-button">
+    <button class="positive"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#cart"></use></svg></button>
+  </div>
+  <label for="multiple-append">Multiple append</label>
+  <div class="group"><input type="text" id="multiple-append"><button>Neutral</button><button class="secondary">Secondary</button></div>
+  <label for="append-prepend">Prepend button</label>
+  <div class="group"><button class="primary">Front</button><input type="text" id="append-prepend"><button class="negative">Back</button></div>
+</div>
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;div class="group">
+  &lt;input type="text">
+  &lt;button class="positive">
+    &lt;svg class="icon">&lt;use xlink:href="...">&lt;/use>&lt;/svg>
+  &lt;/button>
+&lt;/div>
+&lt;div class="group">
+  &lt;input type="text">
+  &lt;button>...&lt;/button>
+  &lt;button class="secondary">...&lt;/button>
+&lt;/div>
+&lt;div class="group">
+  &lt;button class="primary">...&lt;/button>
+  &lt;input type="text">
+  &lt;button class="negative">...&lt;/button>
+&lt;/div></code></pre>
+<!-- /wp:code -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>143</wp:post_id>
 		<wp:post_date><![CDATA[2018-11-16 08:54:39]]></wp:post_date>
@@ -4239,7 +4395,18 @@ manuscripts.</dd>
 <div class="group"><input id="append-label" type="text"><label for="append-label">Appended label</label></div>
 <label for="prepend-label">Prepend label</label>
 <div class="group"><label for="prepend-label">Prepended label</label><input id="prepend-label" type="text"></div>
-</div>]]></content:encoded>
+</div>
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;div class="group">
+  &lt;input type="text">
+  &lt;label for="...">Appended label&lt;/label>
+&lt;/div>
+&lt;div class="group">
+  &lt;label for="...">Prepended label&lt;/label>
+  &lt;input type="text">
+&lt;/div></code></pre>
+<!-- /wp:code -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>146</wp:post_id>
 		<wp:post_date><![CDATA[2018-11-16 08:56:20]]></wp:post_date>
@@ -5230,7 +5397,7 @@ drwxr-xr-x 3 102 Jun 4 15:59 css
 	</item>
 	<item>
 		<title>Hello world!</title>
-		<link>http://localhost/nausikaa/2018/11/13/hello-world/</link>
+		<link>http://localhost/nausikaa/hello-world/</link>
 		<pubDate>Tue, 13 Nov 2018 09:06:40 +0000</pubDate>
 		<dc:creator><![CDATA[mibdw]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/nausikaa/?p=1</guid>
@@ -5353,7 +5520,7 @@ As a new WordPress user, you should go to <a href="http://localhost/nausikaa/wp-
 	</item>
 	<item>
 		<title>Regular</title>
-		<link>http://localhost/nausikaa/2018/11/14/regular__trashed/</link>
+		<link>http://localhost/nausikaa/regular__trashed/</link>
 		<pubDate>Wed, 14 Nov 2018 09:01:47 +0000</pubDate>
 		<dc:creator><![CDATA[mibdw]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/nausikaa/?p=91</guid>

@@ -16,8 +16,8 @@
 
   <header class="navbar">
     <a href="<?php echo home_url(); ?>" id="brand" title="<?php echo bloginfo('name') ?> - <?php echo bloginfo('description') ?>">
-       <img src="<?php echo get_template_directory_uri(); ?>/images/nausikaa.png">
-<!--         <svg>
+        <img src="<?php echo get_template_directory_uri(); ?>/images/nausikaa.png">
+        <!-- <svg>
           <use xlink:href="<?php echo get_template_directory_uri(); ?>/icons/icons.svg#bookdude"></use>
         </svg> -->
     </a>

@@ -29,7 +29,7 @@
             <section id="<?php echo $child->post_name; ?>">
               <header>
                 <h3>
-                  <?php echo $child->post_title; ?><?php edit_post_link('Edit', '<small> ', '</small>'); ?>
+                  <?php echo $child->post_title; ?><?php edit_post_link('Edit', '<small> ', '</small>', $child->ID); ?>
                 </h3>
               </header>
 
