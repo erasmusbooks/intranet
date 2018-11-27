@@ -1,7 +1,7 @@
 @import "variables.css";
 @import "typography/normalize.css";
 @import "typography/typography.css";
-@import "typography/github-gist.css";
+@import "typography/monokai-sublime.css";
 
 @import "elements/buttons.css";
 @import "elements/checkboxes-radios.css";

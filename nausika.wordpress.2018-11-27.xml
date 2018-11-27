@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.9.8" created="2018-11-23 13:08" -->
+<!-- generator="WordPress/4.9.8" created="2018-11-27 16:08" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Nausikaä</title>
 	<link>http://localhost/nausikaa</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Fri, 23 Nov 2018 13:08:33 +0000</pubDate>
+	<pubDate>Tue, 27 Nov 2018 16:08:39 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost/nausikaa</wp:base_site_url>
@@ -3761,11 +3761,7 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 &lt;button class="focus">Focus&lt;/button>
 &lt;button class="active">Active&lt;/button>
 &lt;button disabled="disabled">Disabled&lt;/button>
-&lt;button>
-  &lt;svg class="icon">
-    &lt;use xlink:href="...">&lt;/use>
-  &lt;/svg>
-&lt;/button></code></pre>
+&lt;button>&lt;svg class="icon">&lt;/svg>&lt;/button></code></pre>
 <!-- /wp:code -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>94</wp:post_id>
@@ -4175,7 +4171,7 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 <!-- wp:code -->
 <pre class="wp-block-code"><code>&lt;button>
   &lt;span class="label">
-    &lt;svg class="icon">&lt;use xlink:href="...">&lt;/use>&lt;/svg>
+    &lt;svg class="icon">&lt;/svg>
   &lt;/span>
   ...
 &lt;/button>
@@ -4339,20 +4335,20 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 		<content:encoded><![CDATA[<div class="basic-form">
   <label for="append-button">Append button</label>
   <div class="group">
-    <input type="text" id="append-button">
+    <input type="text" id="append-button"><br>
     <button class="positive"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#cart"></use></svg></button>
   </div>
-  <label for="multiple-append">Multiple append</label>
-  <div class="group"><input type="text" id="multiple-append"><button>Neutral</button><button class="secondary">Secondary</button></div>
-  <label for="append-prepend">Prepend button</label>
-  <div class="group"><button class="primary">Front</button><input type="text" id="append-prepend"><button class="negative">Back</button></div>
+<label for="multiple-append">Multiple append</label>
+<div class="group"><input type="text" id="multiple-append"><button>Neutral</button><button class="secondary">Secondary</button></div>
+<label for="append-prepend">Prepend button</label>
+<div class="group"><button class="primary">Front</button><input type="text" id="append-prepend"><button class="negative">Back</button></div>
 </div>
 
 <!-- wp:code -->
 <pre class="wp-block-code"><code>&lt;div class="group">
   &lt;input type="text">
   &lt;button class="positive">
-    &lt;svg class="icon">&lt;use xlink:href="...">&lt;/use>&lt;/svg>
+    &lt;svg class="icon">...&lt;/svg>
   &lt;/button>
 &lt;/div>
 &lt;div class="group">
@@ -4438,7 +4434,23 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 <div class="group"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg><input id="prepend-icon" class="prepend-icon" type="text"></div>
 <label for="multiple-icon">Multiple icon</label>
 <div class="group"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#mail"></use></svg><input id="multiple-icon" class="append-icon prepend-icon" type="text"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#clear"></use></svg></div>
-</div>]]></content:encoded>
+</div>
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;div class="group">
+  &lt;input type="text">
+  &lt;svg class="icon">...&lt;/svg>
+&lt;/div>
+&lt;div class="group">
+  &lt;svg class="icon">...&lt;/svg>
+  &lt;input type="text">
+&lt;/div>
+&lt;div class="group">
+  &lt;svg class="icon">...&lt;/svg>
+  &lt;input type="text">
+  &lt;svg class="icon">...&lt;/svg>
+&lt;/div></code></pre>
+<!-- /wp:code -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>148</wp:post_id>
 		<wp:post_date><![CDATA[2018-11-16 08:58:29]]></wp:post_date>
@@ -4468,7 +4480,26 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 <div class="group"><label for="mixed-group"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg></label><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg><input id="mixed-group" class="prepend-icon" type="email" placeholder="info@example.com"><button class="primary">Subscribe</button><button class="secondary"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#mail"></use></svg></button></div>
 <label for="first-name">Multiple input</label>
 <div class="group"><input type="text" id="first-name" placeholder="First name"><input type="text" id="last-name" placeholder="Last name"><button>Submit</button></div>
-</div>]]></content:encoded>
+</div>
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;div class="group">
+  &lt;label for="...">&lt;svg class="icon">...&lt;/svg>&lt;/label>
+  &lt;svg class="icon">...&lt;/svg>
+  &lt;input type="email">
+  &lt;button class="primary">...&lt;/button>
+  &lt;button class="secondary">&lt;svg class="icon">...&lt;/svg>&lt;/button>
+&lt;/div>
+&lt;div class="group">
+  &lt;input type="text">
+  &lt;input type="text">
+  &lt;button>...&lt;/button>
+&lt;/div></code></pre>
+<!-- /wp:code -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>151</wp:post_id>
 		<wp:post_date><![CDATA[2018-11-16 09:00:44]]></wp:post_date>
@@ -4499,23 +4530,35 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 <option value="1">Option 1</option>
 <option value="2">Option 2</option>
 <option value="3">Option 3</option>
-</select>
-<label for="select-disabled">Disabled select element</label><select id="select-disabled" disabled="">
+</select><br /><label for="select-disabled">Disabled select element</label><select id="select-disabled" disabled="disabled">
 <option value=""></option>
 <option value="1">Option 1</option>
 <option value="2">Option 2</option>
 <option value="3">Option 3</option>
-</select>
-<label for="multiple">Multipe</label><select id="multiple" multiple="">
+</select><br /><label for="multiple">Multipe</label><select id="multiple" multiple="multiple">
 <option value="1">Option 1</option>
 <option value="2">Option 2</option>
 <option value="3">Option 3</option>
-</select>
-<label for="multiple-disabled">Multipe disabled</label><select id="multiple-disabled" multiple="" disabled="">
+</select><br /><label for="multiple-disabled">Multipe disabled</label><select id="multiple-disabled" disabled="disabled" multiple="multiple">
 <option value="1">Option 1</option>
 <option value="2">Option 2</option>
 <option value="3">Option 3</option>
-</select></div>]]></content:encoded>
+</select></div>
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;select>
+  &lt;option value="...">...&lt;/option>
+  &lt;option value="...">...&lt;/option>
+  &lt;option value="...">...&lt;/option>
+&lt;/select>
+&lt;select disabled>...&lt;/select>
+&lt;select multiple>
+  &lt;option value="...">...&lt;/option>
+  &lt;option value="...">...&lt;/option>
+  &lt;option value="...">...&lt;/option>
+&lt;/select>
+&lt;select disabled multiple>...&lt;/select></code></pre>
+<!-- /wp:code -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>153</wp:post_id>
 		<wp:post_date><![CDATA[2018-11-16 09:03:34]]></wp:post_date>
@@ -4543,7 +4586,7 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 <option value="1">Option 1</option>
 <option value="2">Option 2</option>
 <option value="3">Option 3</option>
-</select><button class="positive"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg></button></div>
+</select><button class="positive"></button></div>
 <label for="multiple-append-select">Multiple append</label>
 <div class="group"><select id="multiple-append-select">
 <option value=""></option>
@@ -4558,7 +4601,26 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 <option value="2">Option 2</option>
 <option value="3">Option 3</option>
 </select><button class="negative">Back</button></div>
-</div>]]></content:encoded>
+</div>
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;div class="group">
+  &lt;select>...&lt;/select>
+  &lt;button class="positive">
+    &lt;svg class="icon">...&lt;/svg>
+  &lt;/button>
+&lt;/div>
+&lt;div class="group">
+  &lt;select>...&lt;/select>
+  &lt;button>...&lt;/button>
+  &lt;button class="secondary">...&lt;/button>
+&lt;/div>
+&lt;div class="group">
+  &lt;button class="primary">...&lt;/button>
+  &lt;select>...&lt;/select>
+  &lt;button class="negative">...&lt;/button>
+&lt;/div></code></pre>
+<!-- /wp:code -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>155</wp:post_id>
 		<wp:post_date><![CDATA[2018-11-16 09:05:54]]></wp:post_date>
@@ -4585,20 +4647,25 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=159</guid>
 		<description></description>
 		<content:encoded><![CDATA[<div class="basic-form"><label for="append-label-select">Append label</label>
-<div class="group"><select id="append-label-select">
-<option value=""></option>
-<option value="1">Option 1</option>
-<option value="2">Option 2</option>
-<option value="3">Option 3</option>
-</select><label for="append-label-select">Appended label</label></div>
+<div class="group"><select id="append-label-select"><option value=""></option><option value="1">Option 1</option><option value="2">Option 2</option><option value="3">Option 3</option></select><label for="append-label-select">Appended label</label></div>
 <label for="prepend-label-select">Prepend label</label>
-<div class="group"><label for="prepend-label-select">Prepended label</label><select id="prepend-label-select">
-<option value=""></option>
-<option value="1">Option 1</option>
-<option value="2">Option 2</option>
-<option value="3">Option 3</option>
-</select></div>
-</div>]]></content:encoded>
+<div class="group"><label for="prepend-label-select">Prepended label</label><select id="prepend-label-select"><option value=""></option><option value="1">Option 1</option><option value="2">Option 2</option><option value="3">Option 3</option></select></div>
+</div>
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;div class="group">
+  &lt;select>...&lt;/select>
+  &lt;label for="...">Appended label&lt;/label>
+&lt;/div>
+&lt;div class="group">
+  &lt;label for="...">Prepended label&lt;/label>
+  &lt;select>...&lt;/select>
+&lt;/div></code></pre>
+<!-- /wp:code -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>159</wp:post_id>
 		<wp:post_date><![CDATA[2018-11-16 09:07:52]]></wp:post_date>
@@ -4625,20 +4692,21 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=161</guid>
 		<description></description>
 		<content:encoded><![CDATA[<div class="basic-form"><label for="append-icon-select">Append icon</label>
-<div class="group"><select id="append-icon-select" class="append-icon">
-<option value=""></option>
-<option value="1">Option 1</option>
-<option value="2">Option 2</option>
-<option value="3">Option 3</option>
-</select><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg></div>
+<div class="group"><select id="append-icon-select" class="append-icon"><option value=""></option><option value="1">Option 1</option><option value="2">Option 2</option><option value="3">Option 3</option></select><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg></div>
 <label for="prepend-icon-select">Prepend icon</label>
-<div class="group"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg><select id="prepend-icon-select" class="prepend-icon">
-<option value=""></option>
-<option value="1">Option 1</option>
-<option value="2">Option 2</option>
-<option value="3">Option 3</option>
-</select></div>
-</div>]]></content:encoded>
+<div class="group"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg><select id="prepend-icon-select" class="prepend-icon"><option value=""></option><option value="1">Option 1</option><option value="2">Option 2</option><option value="3">Option 3</option></select></div>
+</div>
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;div class="group">
+  &lt;select>...&lt;/select>
+  &lt;svg class="icon">...&lt;/svg>
+&lt;/div>
+&lt;div class="group">
+  &lt;svg class="icon">...&lt;/svg>
+  &lt;select>...&lt;/select>
+&lt;/div></code></pre>
+<!-- /wp:code -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>161</wp:post_id>
 		<wp:post_date><![CDATA[2018-11-16 09:10:37]]></wp:post_date>
@@ -4665,25 +4733,25 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=163</guid>
 		<description></description>
 		<content:encoded><![CDATA[<div class="basic-form"><label for="mixed-group-select">Mixed group</label>
-<div class="group"><label for="mixed-group-select"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg></label><select id="mixed-group-select">
-<option value=""></option>
-<option value="1">Option 1</option>
-<option value="2">Option 2</option>
-<option value="3">Option 3</option>
-</select><button class="primary">Subscribe</button><button class="secondary"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg></button></div>
+<div class="group"><label for="mixed-group-select"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg></label><select id="mixed-group-select"><option value=""></option><option value="1">Option 1</option><option value="2">Option 2</option><option value="3">Option 3</option></select><button class="primary">Subscribe</button><button class="secondary"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg></button></div>
 <label for="first-select">Multiple select</label>
-<div class="group"><select id="first-select">
-<option value=""></option>
-<option value="1">Option 1</option>
-<option value="2">Option 2</option>
-<option value="3">Option 3</option>
-</select><select>
-<option value=""></option>
-<option value="1">Option 1</option>
-<option value="2">Option 2</option>
-<option value="3">Option 3</option>
-</select><button>Submit</button></div>
-</div>]]></content:encoded>
+<div class="group"><select id="first-select"><option value=""></option><option value="1">Option 1</option><option value="2">Option 2</option><option value="3">Option 3</option></select><select><option value=""></option><option value="1">Option 1</option><option value="2">Option 2</option><option value="3">Option 3</option></select><button>Submit</button></div>
+</div>
+
+<!-- wp:code -->
+<pre class="wp-block-code"><code>&lt;div class="group">
+  &lt;label for="...">&lt;svg class="icon">...&lt;/svg>&lt;/label>
+  &lt;svg class="icon">...&lt;/svg>
+  &lt;select>...&lt;/select>
+  &lt;button class="primary">...&lt;/button>
+  &lt;button class="secondary">&lt;svg class="icon">...&lt;/svg>&lt;/button>
+&lt;/div>
+&lt;div class="group">
+  &lt;select>...&lt;/select>
+  &lt;select>...&lt;/select>
+  &lt;button>...&lt;/button>
+&lt;/div></code></pre>
+<!-- /wp:code -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>163</wp:post_id>
 		<wp:post_date><![CDATA[2018-11-16 09:12:44]]></wp:post_date>
