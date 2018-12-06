@@ -6,8 +6,20 @@ select {
   padding-right: 2.5em;
 }
 
+select:active,
+select:focus,
+select:hover {
+  background-image: url(icons/chevron-down-blue.svg);
+}
+
+select[disabled]:active,
+select[disabled]:focus,
+select[disabled]:hover {
+  background-image: url(icons/chevron-down.svg);
+}
+
 select[multiple] {
-  min-height: calc(2* var(--inputHeight));
+  min-height: calc(2 * var(--inputHeight));
   background: none;
   padding: 0.5em 0 0;
 }

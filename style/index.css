@@ -20,5 +20,6 @@
 @import "collections/navbar.css";
 @import "collections/basic-form.css";
 @import "collections/nav-panel.css";
+@import "collections/code-example.css";
 
 @import "layout/responsive.css";

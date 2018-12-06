@@ -1,0 +1,82 @@
+.code-example {
+  position: relative;
+  min-height: calc(2 * var(--paragraphSpacer));
+  border-bottom: 1px dotted var(--mainLine);
+  margin: var(--paragraphSpacer) 0 0;
+}
+
+.code-example:last-child {
+  border-bottom-width: 0px;
+}
+
+.code-example pre {
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  border-width: 0;
+}
+
+.code-example input[type="checkbox"] + label {
+  position: absolute;
+  right: 0.5em;
+  top: -0.5em;
+}
+
+.code-example:last-child input[type="checkbox"] + label {
+  position: absolute;
+  right: 0.5em;
+  top: 0.5em;
+}
+
+.code-example input[type="checkbox"] + label:before,
+.code-example input[type="checkbox"] + label:after {
+  display: none;
+}
+
+.code-example input[type="checkbox"] + label .code {
+  fill: var(--mainLine);
+}
+
+.code-example input[type="checkbox"] + label .code:hover,
+.code-example input[type="checkbox"] + label .code:focus {
+  fill: var(--blue);
+}
+
+.code-example input[type="checkbox"] + label .code:active {
+  fill: var(--blue);
+}
+
+.code-example input[type="checkbox"] + label .clear {
+  fill: var(--mainVague);
+  display: none;
+}
+
+.code-example input[type="checkbox"] + label .clear:hover,
+.code-example input[type="checkbox"] + label .clear:focus {
+  fill: var(--white);
+}
+
+.code-example input[type="checkbox"] + label .clear:active {
+  fill: var(--white);
+}
+
+.code-example input[type="checkbox"]:checked + label {
+  top: 0.5em;
+}
+
+.code-example input[type="checkbox"]:checked + label .code {
+  display: none;
+}
+
+.code-example input[type="checkbox"]:checked + label .clear {
+  display: block;
+}
+
+.code-example input[type="checkbox"]:checked + label + pre {
+  height: auto;
+  padding: 0.8em 1.2em;
+  margin: inherit;
+  margin-bottom: var(--paragraphSpacer);
+  border-width: inherit;
+}

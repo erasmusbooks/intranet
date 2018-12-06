@@ -40,16 +40,6 @@ pre {
   margin: var(--paragraphSpacer) 0;
 }
 
-.code-sample > pre {
-  border-width: 0;
-  margin: 0;
-  padding: 0;
-}
-
-.code-sample > pre > code {
-  padding: 1em;
-}
-
 samp {
   padding: 2px 4px;
   color: var(--mainText);

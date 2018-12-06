@@ -2,3 +2,4 @@
 *.sublime-project
 .jshintrc
 node_modules
+*/node_modules

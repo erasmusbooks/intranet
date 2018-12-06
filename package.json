@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "postcss style/index.css -o style.css --watch",
-    "build": "postcss style/index.css -o style.css"
+    "build": "postcss style/index.css -o style.css",
+    "block:dev": "cgb-scripts start"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cgb-scripts": "^1.13.0",
     "cssnano": "^3.10.0",
     "postcss-banner": "^3.0.0",
     "postcss-cli": "^4.1.1",
