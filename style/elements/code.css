@@ -29,7 +29,7 @@ kbd {
 
 pre {
   display: block;
-  color: var(--mainText);
+  color: var(--white);
   background-color: #23241f;
   border: 1px solid var(--black);
   border-radius: 6px;

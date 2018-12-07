@@ -2,7 +2,7 @@
   position: relative;
   min-height: calc(2 * var(--paragraphSpacer));
   border-bottom: 1px dotted var(--mainLine);
-  margin: var(--paragraphSpacer) 0 0;
+  margin: var(--paragraphSpacer) 0;
 }
 
 .code-example:last-child {
@@ -76,7 +76,6 @@
 .code-example input[type="checkbox"]:checked + label + pre {
   height: auto;
   padding: 0.8em 1.2em;
-  margin: inherit;
   margin-bottom: var(--paragraphSpacer);
   border-width: inherit;
 }

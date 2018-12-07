@@ -1,0 +1,43 @@
+dialog {
+  display: block;
+  margin: var(--paragraphSpacer) auto;
+  min-width: 30em;
+  max-width: 80vw;
+  padding: 1.5em 3em 1.5em 2em;
+  border: 1px solid var(--mainLine);
+  border-radius: 6px;
+}
+
+dialog.inline {
+  position: relative;
+}
+
+dialog .close {
+  position: absolute;
+  top: 0.75em;
+  right: 0.75em;
+}
+
+dialog .close svg {
+  width: 2em;
+  height: 2em;
+  fill: var(--mainLine);
+}
+
+dialog .close:hover svg,
+dialog .close:focus svg {
+  fill: var(--mainVague);
+}
+
+dialog .close:active svg {
+  fill: var(--mainText);
+}
+
+dialog footer {
+  background-color: var(--mainBackgroundLite);
+  border-top: 1px solid var(--mainLine);
+  border-radius: 0 0 6px 6px;
+  padding: 0.5em 1em 0.2em;
+  margin: 2em -3em -1.5em -2em;
+  text-align: right;
+}

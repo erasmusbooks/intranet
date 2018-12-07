@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.9.8" created="2018-12-06 15:54" -->
+<!-- generator="WordPress/5.0" created="2018-12-07 16:31" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Nausikaä</title>
 	<link>http://localhost/nausikaa</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Thu, 06 Dec 2018 15:54:17 +0000</pubDate>
+	<pubDate>Fri, 07 Dec 2018 16:31:26 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost/nausikaa</wp:base_site_url>
@@ -60,7 +60,7 @@
 	<wp:term><wp:term_id>7</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[header-menu]]></wp:term_slug><wp:term_name><![CDATA[Header Menu]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<generator>https://wordpress.org/?v=5.0</generator>
 
 	<item>
 		<title>sandrart</title>
@@ -2418,28 +2418,6 @@
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Components</title>
-		<link>http://localhost/nausikaa/components/</link>
-		<pubDate>Tue, 13 Nov 2018 12:42:06 +0000</pubDate>
-		<dc:creator><![CDATA[mibdw]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=13</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>13</wp:post_id>
-		<wp:post_date><![CDATA[2018-11-13 12:42:06]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-11-13 12:42:06]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[components]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-	</item>
-	<item>
 		<title>Collections</title>
 		<link>http://localhost/nausikaa/documentation/collections/</link>
 		<pubDate>Tue, 13 Nov 2018 12:42:22 +0000</pubDate>
@@ -2598,6 +2576,36 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>11</wp:post_parent>
 		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Input fields</title>
+		<link>http://localhost/nausikaa/documentation/elements/input-fields/</link>
+		<pubDate>Tue, 13 Nov 2018 12:44:19 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=23</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>23</wp:post_id>
+		<wp:post_date><![CDATA[2018-11-13 12:44:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-11-13 12:44:19]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[input-fields]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>11</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
@@ -3353,36 +3361,6 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
 			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Input fields</title>
-		<link>http://localhost/nausikaa/documentation/elements/input-fields/</link>
-		<pubDate>Tue, 13 Nov 2018 12:44:19 +0000</pubDate>
-		<dc:creator><![CDATA[mibdw]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=23</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>23</wp:post_id>
-		<wp:post_date><![CDATA[2018-11-13 12:44:19]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-11-13 12:44:19]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[input-fields]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>11</wp:post_parent>
-		<wp:menu_order>4</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -4209,11 +4187,11 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 </dl>
 <dl>
 <dt>Ascender</dt>
-<dd>The part of certain lowercase letters that extends above the<br />x-height of a font.</dd>
+<dd>The part of certain lowercase letters that extends above the x-height of a font.</dd>
 <dt>Font</dt>
-<dd>Traditionally, a complete set of characters for one typeface at<br />one particular type size. Often used more loosely as a synonym for<br />"typeface".</dd>
+<dd>Traditionally, a complete set of characters for one typeface at one particular type size. Often used more loosely as a synonym for "typeface".</dd>
 <dt>Golden Section</dt>
-<dd>The ideal proportion according to the ancient Greeks. It is<br />visualized as the division of a line into two unequal segments in<br />such a way that the ratio of the smaller segment to the larger<br />segment is equal to the ratio of the larger to the whole. It is<br />usually defined as 21:34, that is, 21/34 and 34/(21+34) both equal<br />approximately 0.618. A rectangle whose sides are of this<br />proportion is called a "golden rectangle". Golden rectangles can<br />be found in the proportions of the Parthenon and many medieval<br />manuscripts.</dd>
+<dd>The ideal proportion according to the ancient Greeks. It is visualized as the division of a line into two unequal segments in such a way that the ratio of the smaller segment to the larger segment is equal to the ratio of the larger to the whole. It is usually defined as 21:34, that is, 21/34 and 34/(21+34) both equal approximately 0.618. A rectangle whose sides are of this proportion is called a "golden rectangle". Golden rectangles can be found in the proportions of the Parthenon and many medieval<br>manuscripts.</dd>
 </dl>
 
 <!-- wp:nausikaa/code-example -->
@@ -4503,7 +4481,7 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:html -->
 <div class="basic-form"><label for="append-button">Append button</label>
-<div class="group"><input id="append-button" type="text"><button class="positive"></button></div>
+<div class="group"><input id="append-button" type="text"><button class="positive"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg></button></div>
 <label for="multiple-append">Multiple append</label>
 <div class="group"><input id="multiple-append" type="text"><button>Neutral</button><button class="secondary">Secondary</button></div>
 <label for="append-prepend">Prepend button</label>
@@ -4738,7 +4716,7 @@ molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu
 <option value="1">Option 1</option>
 <option value="2">Option 2</option>
 <option value="3">Option 3</option>
-</select><button class="positive"></button></div>
+</select><button class="positive"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#star"></use></svg></button></div>
 <label for="multiple-append-select">Multiple append</label>
 <div class="group"><select id="multiple-append-select">
 <option value=""></option>
@@ -5667,6 +5645,679 @@ drwxr-xr-x 3 102 Jun 4 15:59 css
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>Documentation</title>
+		<link>http://localhost/nausikaa/documentation/</link>
+		<pubDate>Fri, 16 Nov 2018 10:32:51 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=207</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>207</wp:post_id>
+		<wp:post_date><![CDATA[2018-11-16 10:32:51]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-11-16 10:32:51]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[documentation]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Components</title>
+		<link>http://localhost/nausikaa/documentation/components/</link>
+		<pubDate>Tue, 20 Nov 2018 11:58:40 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=274</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>274</wp:post_id>
+		<wp:post_date><![CDATA[2018-11-20 11:58:40]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-11-20 11:58:40]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[components]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>207</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Tags</title>
+		<link>http://localhost/nausikaa/documentation/components/tags/</link>
+		<pubDate>Tue, 20 Nov 2018 11:59:41 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=276</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>276</wp:post_id>
+		<wp:post_date><![CDATA[2018-11-20 11:59:41]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-11-20 11:59:41]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[tags]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>274</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Cards</title>
+		<link>http://localhost/nausikaa/documentation/collections/cards/</link>
+		<pubDate>Tue, 20 Nov 2018 12:01:38 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=282</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>282</wp:post_id>
+		<wp:post_date><![CDATA[2018-11-20 12:01:38]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-11-20 12:01:38]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[cards]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>15</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Filter</title>
+		<link>http://localhost/nausikaa/documentation/collections/sidebar/sidebar-menu-2/</link>
+		<pubDate>Tue, 20 Nov 2018 12:06:24 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=284</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>284</wp:post_id>
+		<wp:post_date><![CDATA[2018-11-20 12:06:24]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-11-20 12:06:24]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[sidebar-menu-2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>41</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Menu</title>
+		<link>http://localhost/nausikaa/documentation/collections/sidebar/sidebar-menu/</link>
+		<pubDate>Tue, 20 Nov 2018 12:07:24 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=287</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>287</wp:post_id>
+		<wp:post_date><![CDATA[2018-11-20 12:07:24]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-11-20 12:07:24]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[sidebar-menu]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>41</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Examples</title>
+		<link>http://localhost/nausikaa/examples/</link>
+		<pubDate>Wed, 21 Nov 2018 08:16:08 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=294</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>294</wp:post_id>
+		<wp:post_date><![CDATA[2018-11-21 08:16:08]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-11-21 08:16:08]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[examples]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title>Blog</title>
+		<link>http://localhost/nausikaa/blog/</link>
+		<pubDate>Wed, 21 Nov 2018 08:16:19 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=296</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>296</wp:post_id>
+		<wp:post_date><![CDATA[2018-11-21 08:16:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-11-21 08:16:19]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[blog]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title>test</title>
+		<link>http://localhost/nausikaa/test/</link>
+		<pubDate>Fri, 30 Nov 2018 15:05:08 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=489</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:nausikaa/code-example -->
+<div class="wp-block-nausikaa-code-example code-example"><input type="checkbox" id="92rklrarq"/><label for="92rklrarq"><svg viewbox="0 0 24 24" width="24px" height="24px"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"></path></svg></label><pre><code>Move your body closer</code></pre></div>
+<!-- /wp:nausikaa/code-example -->
+
+<!-- wp:nausikaa/code-example -->
+<div class="wp-block-nausikaa-code-example code-example"><input type="checkbox" id="5lch2gl9g"/><label for="5lch2gl9g"><svg viewbox="0 0 24 24" width="24px" height="24px"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"></path></svg></label><pre><code>Don't look any further</code></pre></div>
+<!-- /wp:nausikaa/code-example -->
+
+<!-- wp:nausikaa/code-example -->
+<div class="wp-block-nausikaa-code-example code-example"><input type="checkbox" id="wu4tumtfl"/><label for="wu4tumtfl"><svg viewbox="0 0 24 24" width="24px" height="24px"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"></path></svg></label><pre><code>WHUUUT</code></pre></div>
+<!-- /wp:nausikaa/code-example -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>489</wp:post_id>
+		<wp:post_date><![CDATA[2018-11-30 15:05:08]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-11-30 15:05:08]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[test]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+	</item>
+	<item>
+		<title>File upload</title>
+		<link>http://localhost/nausikaa/documentation/elements/input-fields/file-upload/</link>
+		<pubDate>Fri, 07 Dec 2018 09:46:31 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=660</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:html -->
+<input type="file" name="upload" id="upload" />
+<label for="upload" class="button"><span class="label"><svg class="icon"><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#upload"></use></svg></span>File upload</label>
+
+<!-- /wp:html -->
+
+<!-- wp:nausikaa/code-example -->
+<div class="wp-block-nausikaa-code-example code-example"><input type="checkbox" id="pifxd92n1"/><label for="pifxd92n1" title="Show/hide example code"><svg viewbox="0 0 24 24" width="24px" height="24px" class="code"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"></path></svg><svg viewbox="0 0 24 24" width="24px" height="24px" class="clear"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></label><pre><code>&lt;input type="file" id="...">
+&lt;label for="...">...&lt;/label></code></pre></div>
+<!-- /wp:nausikaa/code-example -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>660</wp:post_id>
+		<wp:post_date><![CDATA[2018-12-07 09:46:31]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-12-07 09:46:31]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[file-upload]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>23</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Dialogs</title>
+		<link>http://localhost/nausikaa/documentation/elements/dialogs/</link>
+		<pubDate>Fri, 07 Dec 2018 10:53:52 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=675</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:html -->
+<dialog open="" style="margin: 0 5em;" class="inline">
+<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.<p>
+<p>Sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p> 
+<a class="close"><svg><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#clear"></use></svg></a>
+<footer>
+<button class="primary">Confirm</button>
+<button>Cancel</button>
+</footer>
+</dialog>
+<!-- /wp:html -->
+
+<!-- wp:nausikaa/code-example -->
+<div class="wp-block-nausikaa-code-example code-example"><input type="checkbox" id="5eohbs4ff"/><label for="5eohbs4ff" title="Show/hide example code"><svg viewbox="0 0 24 24" width="24px" height="24px" class="code"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"></path></svg><svg viewbox="0 0 24 24" width="24px" height="24px" class="clear"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></label><pre><code>&lt;dialog>
+  ...
+  &lt;a class="close">&lt;svg>...&lt;/svg>&lt;/a>
+  &lt;footer>
+    &lt;button class="primary">...&lt;/button>
+    &lt;button>...&lt;/button>
+  &lt;/footer>
+&lt;/dialog></code></pre></div>
+<!-- /wp:nausikaa/code-example -->
+
+<!-- wp:html -->
+<dialog style="margin: 0 5em;" id="example-dialog">
+<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.<p>
+<p>Sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p> 
+<a class="close"><svg><use xlink:href="/nausikaa/wp-content/themes/nausikaa/icons/icons.svg#clear"></use></svg></a>
+<footer>
+<button class="primary">Confirm</button>
+<button>Cancel</button>
+</footer>
+</dialog>
+<!-- /wp:html -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>675</wp:post_id>
+		<wp:post_date><![CDATA[2018-12-07 10:53:52]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-12-07 10:53:52]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[dialogs]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>11</wp:post_parent>
+		<wp:menu_order>13</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Progress bars</title>
+		<link>http://localhost/nausikaa/documentation/elements/progress-bars/</link>
+		<pubDate>Fri, 07 Dec 2018 10:58:28 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=678</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:html -->
+<progress max="100" value="2"></progress>
+<progress max="100" value="20"></progress>
+<progress max="100" value="40"></progress>
+<progress max="100" value="60"></progress>
+<progress max="100" value="80"></progress>
+<progress max="100" value="100"></progress>
+<!-- /wp:html -->
+
+<!-- wp:nausikaa/code-example -->
+<div class="wp-block-nausikaa-code-example code-example"><input type="checkbox" id="kzpdgkn8c"/><label for="kzpdgkn8c" title="Show/hide example code"><svg viewbox="0 0 24 24" width="24px" height="24px" class="code"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"></path></svg><svg viewbox="0 0 24 24" width="24px" height="24px" class="clear"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></label><pre><code>&lt;progress max="..." value="...">&lt;/progress></code></pre></div>
+<!-- /wp:nausikaa/code-example -->
+
+<!-- wp:html -->
+<progress></progress>
+<!-- /wp:html -->
+
+<!-- wp:nausikaa/code-example -->
+<div class="wp-block-nausikaa-code-example code-example"><input type="checkbox" id="bsvdcghmf"/><label for="bsvdcghmf" title="Show/hide example code"><svg viewbox="0 0 24 24" width="24px" height="24px" class="code"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"></path></svg><svg viewbox="0 0 24 24" width="24px" height="24px" class="clear"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></label><pre><code>&lt;progress>&lt;/progress></code></pre></div>
+<!-- /wp:nausikaa/code-example -->
+
+<!-- wp:html -->
+<progress max="100" value="60" class="blue"></progress>
+<progress max="100" value="65" class="red"></progress>
+<progress max="100" value="53" class="yellow"></progress>
+<progress max="100" value="71" class="green"></progress>
+<progress max="100" value="55" class="purple"></progress>
+<progress max="100" value="76" class="orange"></progress>
+<progress max="100" value="67" class="gray"></progress>
+<!-- /wp:html -->
+
+<!-- wp:nausikaa/code-example -->
+<div class="wp-block-nausikaa-code-example code-example"><input type="checkbox" id="2fuok7p5y"/><label for="2fuok7p5y" title="Show/hide example code"><svg viewbox="0 0 24 24" width="24px" height="24px" class="code"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"></path></svg><svg viewbox="0 0 24 24" width="24px" height="24px" class="clear"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></label><pre><code>&lt;progress class="blue">&lt;/progress>
+&lt;progress class="red">&lt;/progress>
+&lt;progress class="yellow">&lt;/progress>
+&lt;progress class="green">&lt;/progress>
+&lt;progress class="purple">&lt;/progress>
+&lt;progress class="orange">&lt;/progress>
+&lt;progress class="gray">&lt;/progress></code></pre></div>
+<!-- /wp:nausikaa/code-example -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>678</wp:post_id>
+		<wp:post_date><![CDATA[2018-12-07 10:58:28]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-12-07 10:58:28]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[progress-bars]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>11</wp:post_parent>
+		<wp:menu_order>12</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Notifications</title>
+		<link>http://localhost/nausikaa/documentation/components/notifications/</link>
+		<pubDate>Fri, 07 Dec 2018 10:59:49 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=680</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>680</wp:post_id>
+		<wp:post_date><![CDATA[2018-12-07 10:59:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-12-07 10:59:49]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[notifications]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>274</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Panels</title>
+		<link>http://localhost/nausikaa/documentation/components/panels/</link>
+		<pubDate>Fri, 07 Dec 2018 11:06:34 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=682</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>682</wp:post_id>
+		<wp:post_date><![CDATA[2018-12-07 11:06:34]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-12-07 11:06:34]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[panels]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>274</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Dropdowns</title>
+		<link>http://localhost/nausikaa/documentation/components/dropdowns/</link>
+		<pubDate>Fri, 07 Dec 2018 11:17:41 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=711</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>711</wp:post_id>
+		<wp:post_date><![CDATA[2018-12-07 11:17:41]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-12-07 11:17:41]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[dropdowns]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>274</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Breadcrumbs</title>
+		<link>http://localhost/nausikaa/documentation/components/breadcrumbs/</link>
+		<pubDate>Fri, 07 Dec 2018 11:18:16 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=713</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>713</wp:post_id>
+		<wp:post_date><![CDATA[2018-12-07 11:18:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-12-07 11:18:16]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[breadcrumbs]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>274</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Menus</title>
+		<link>http://localhost/nausikaa/documentation/components/menus/</link>
+		<pubDate>Fri, 07 Dec 2018 11:20:33 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=715</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>715</wp:post_id>
+		<wp:post_date><![CDATA[2018-12-07 11:20:33]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-12-07 11:20:33]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[menus]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>274</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Horizontal rule</title>
+		<link>http://localhost/nausikaa/documentation/elements/typography/horizontal-rule/</link>
+		<pubDate>Fri, 07 Dec 2018 11:24:17 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=717</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Duis a ultrices ante. Praesent suscipit porttitor dui ultricies auctor. Nunc pharetra nibh justo, vitae fermentum sapien malesuada et. Duis elementum arcu nec enim sagittis interdum.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<hr>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p> Praesent gravida lacinia ipsum, et rutrum felis posuere nec. Duis ipsum ipsum, consectetur in molestie non, dignissim eget ex. Maecenas ut fermentum libero. Mauris eu libero sollicitudin, pulvinar nunc id, facilisis odio.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:nausikaa/code-example -->
+<div class="wp-block-nausikaa-code-example code-example"><input type="checkbox" id="q1kj9n744"/><label for="q1kj9n744" title="Show/hide example code"><svg viewbox="0 0 24 24" width="24px" height="24px" class="code"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"></path></svg><svg viewbox="0 0 24 24" width="24px" height="24px" class="clear"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></label><pre><code>&lt;p>...&lt;/p>
+&lt;hr>
+&lt;p>...&lt;/p></code></pre></div>
+<!-- /wp:nausikaa/code-example -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>717</wp:post_id>
+		<wp:post_date><![CDATA[2018-12-07 11:24:17]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-12-07 11:24:17]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[horizontal-rule]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>17</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Progression</title>
+		<link>http://localhost/nausikaa/documentation/collections/progression/</link>
+		<pubDate>Fri, 07 Dec 2018 11:26:39 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=720</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>720</wp:post_id>
+		<wp:post_date><![CDATA[2018-12-07 11:26:39]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-12-07 11:26:39]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[progression]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>15</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Articles</title>
+		<link>http://localhost/nausikaa/documentation/collections/articles/</link>
+		<pubDate>Fri, 07 Dec 2018 11:27:58 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=723</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>723</wp:post_id>
+		<wp:post_date><![CDATA[2018-12-07 11:27:58]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-12-07 11:27:58]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[articles]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>15</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Pagination</title>
+		<link>http://localhost/nausikaa/documentation/components/pagination/</link>
+		<pubDate>Fri, 07 Dec 2018 11:29:35 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=727</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>727</wp:post_id>
+		<wp:post_date><![CDATA[2018-12-07 11:29:35]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-12-07 11:29:35]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[pagination]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>274</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>Hello world!</title>
 		<link>http://localhost/nausikaa/hello-world/</link>
 		<pubDate>Tue, 13 Nov 2018 09:06:40 +0000</pubDate>
@@ -5790,6 +6441,85 @@ As a new WordPress user, you should go to <a href="http://localhost/nausikaa/wp-
 		</wp:postmeta>
 	</item>
 	<item>
+		<title>Components</title>
+		<link>http://localhost/nausikaa/components__trashed/</link>
+		<pubDate>Tue, 13 Nov 2018 12:42:06 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=13</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>13</wp:post_id>
+		<wp:post_date><![CDATA[2018-11-13 12:42:06]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-11-13 12:42:06]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[components__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1544181543]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[components]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Regular</title>
+		<link>http://localhost/nausikaa/regular__trashed/</link>
+		<pubDate>Wed, 14 Nov 2018 09:01:47 +0000</pubDate>
+		<dc:creator><![CDATA[mibdw]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/nausikaa/?p=91</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link" href="Button"></a></div>
+<!-- /wp:button -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>91</wp:post_id>
+		<wp:post_date><![CDATA[2018-11-14 09:01:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2018-11-14 09:01:47]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[regular__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[draft]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1542186154]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[regular]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
 		<title>Code</title>
 		<link>http://localhost/nausikaa/__trashed/</link>
 		<pubDate>Fri, 16 Nov 2018 10:07:04 +0000</pubDate>
@@ -5824,90 +6554,8 @@ As a new WordPress user, you should go to <a href="http://localhost/nausikaa/wp-
 		</wp:postmeta>
 	</item>
 	<item>
-		<title>Documentation</title>
-		<link>http://localhost/nausikaa/documentation/</link>
-		<pubDate>Fri, 16 Nov 2018 10:32:51 +0000</pubDate>
-		<dc:creator><![CDATA[mibdw]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=207</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>207</wp:post_id>
-		<wp:post_date><![CDATA[2018-11-16 10:32:51]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-11-16 10:32:51]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[documentation]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Components</title>
-		<link>http://localhost/nausikaa/documentation/components/</link>
-		<pubDate>Tue, 20 Nov 2018 11:58:40 +0000</pubDate>
-		<dc:creator><![CDATA[mibdw]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=274</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>274</wp:post_id>
-		<wp:post_date><![CDATA[2018-11-20 11:58:40]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-11-20 11:58:40]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[components]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>207</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Badges</title>
-		<link>http://localhost/nausikaa/documentation/components/badges/</link>
-		<pubDate>Tue, 20 Nov 2018 11:59:41 +0000</pubDate>
-		<dc:creator><![CDATA[mibdw]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=276</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>276</wp:post_id>
-		<wp:post_date><![CDATA[2018-11-20 11:59:41]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-11-20 11:59:41]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[badges]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>274</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 		<title>Knobs</title>
-		<link>http://localhost/nausikaa/documentation/components/knobs/</link>
+		<link>http://localhost/nausikaa/documentation/components/knobs__trashed/</link>
 		<pubDate>Tue, 20 Nov 2018 12:00:09 +0000</pubDate>
 		<dc:creator><![CDATA[mibdw]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=278</guid>
@@ -5919,8 +6567,8 @@ As a new WordPress user, you should go to <a href="http://localhost/nausikaa/wp-
 		<wp:post_date_gmt><![CDATA[2018-11-20 12:00:09]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[knobs]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[knobs__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
 		<wp:post_parent>274</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
@@ -5930,10 +6578,22 @@ As a new WordPress user, you should go to <a href="http://localhost/nausikaa/wp-
 			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
 			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
 		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1544179840]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[knobs]]></wp:meta_value>
+		</wp:postmeta>
 	</item>
 	<item>
 		<title>Bars</title>
-		<link>http://localhost/nausikaa/documentation/components/bars/</link>
+		<link>http://localhost/nausikaa/documentation/components/bars__trashed/</link>
 		<pubDate>Tue, 20 Nov 2018 12:01:11 +0000</pubDate>
 		<dc:creator><![CDATA[mibdw]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=280</guid>
@@ -5945,8 +6605,8 @@ As a new WordPress user, you should go to <a href="http://localhost/nausikaa/wp-
 		<wp:post_date_gmt><![CDATA[2018-11-20 12:01:11]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[bars]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[bars__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
 		<wp:post_parent>274</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[page]]></wp:post_type>
@@ -5956,140 +6616,18 @@ As a new WordPress user, you should go to <a href="http://localhost/nausikaa/wp-
 			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
 			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Products</title>
-		<link>http://localhost/nausikaa/documentation/collections/products/</link>
-		<pubDate>Tue, 20 Nov 2018 12:01:38 +0000</pubDate>
-		<dc:creator><![CDATA[mibdw]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=282</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>282</wp:post_id>
-		<wp:post_date><![CDATA[2018-11-20 12:01:38]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-11-20 12:01:38]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[products]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>15</wp:post_parent>
-		<wp:menu_order>4</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[page-documentation.php]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+			<wp:meta_value><![CDATA[publish]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Filter</title>
-		<link>http://localhost/nausikaa/documentation/collections/sidebar/sidebar-menu-2/</link>
-		<pubDate>Tue, 20 Nov 2018 12:06:24 +0000</pubDate>
-		<dc:creator><![CDATA[mibdw]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=284</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>284</wp:post_id>
-		<wp:post_date><![CDATA[2018-11-20 12:06:24]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-11-20 12:06:24]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[sidebar-menu-2]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>41</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+			<wp:meta_value><![CDATA[1544180765]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+			<wp:meta_value><![CDATA[bars]]></wp:meta_value>
 		</wp:postmeta>
-	</item>
-	<item>
-		<title>Menu</title>
-		<link>http://localhost/nausikaa/documentation/collections/sidebar/sidebar-menu/</link>
-		<pubDate>Tue, 20 Nov 2018 12:07:24 +0000</pubDate>
-		<dc:creator><![CDATA[mibdw]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=287</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>287</wp:post_id>
-		<wp:post_date><![CDATA[2018-11-20 12:07:24]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-11-20 12:07:24]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[sidebar-menu]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>41</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
-			<wp:meta_value><![CDATA[default]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Examples</title>
-		<link>http://localhost/nausikaa/examples/</link>
-		<pubDate>Wed, 21 Nov 2018 08:16:08 +0000</pubDate>
-		<dc:creator><![CDATA[mibdw]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=294</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>294</wp:post_id>
-		<wp:post_date><![CDATA[2018-11-21 08:16:08]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-11-21 08:16:08]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[examples]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-	</item>
-	<item>
-		<title>Blog</title>
-		<link>http://localhost/nausikaa/blog/</link>
-		<pubDate>Wed, 21 Nov 2018 08:16:19 +0000</pubDate>
-		<dc:creator><![CDATA[mibdw]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=296</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>296</wp:post_id>
-		<wp:post_date><![CDATA[2018-11-21 08:16:19]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-11-21 08:16:19]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[blog]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
 	</item>
 	<item>
 		<title>Test</title>
@@ -6244,38 +6782,6 @@ wwww</code></pre></div>
 	</item>
 	<item>
 		<title>test</title>
-		<link>http://localhost/nausikaa/test/</link>
-		<pubDate>Fri, 30 Nov 2018 15:05:08 +0000</pubDate>
-		<dc:creator><![CDATA[mibdw]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/nausikaa/?page_id=489</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:nausikaa/code-example -->
-<div class="wp-block-nausikaa-code-example code-example"><input type="checkbox" id="92rklrarq"/><label for="92rklrarq"><svg viewbox="0 0 24 24" width="24px" height="24px"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"></path></svg></label><pre><code>Move your body closer</code></pre></div>
-<!-- /wp:nausikaa/code-example -->
-
-<!-- wp:nausikaa/code-example -->
-<div class="wp-block-nausikaa-code-example code-example"><input type="checkbox" id="5lch2gl9g"/><label for="5lch2gl9g"><svg viewbox="0 0 24 24" width="24px" height="24px"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"></path></svg></label><pre><code>Don't look any further</code></pre></div>
-<!-- /wp:nausikaa/code-example -->
-
-<!-- wp:nausikaa/code-example -->
-<div class="wp-block-nausikaa-code-example code-example"><input type="checkbox" id="wu4tumtfl"/><label for="wu4tumtfl"><svg viewbox="0 0 24 24" width="24px" height="24px"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"></path></svg></label><pre><code>WHUUUT</code></pre></div>
-<!-- /wp:nausikaa/code-example -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>489</wp:post_id>
-		<wp:post_date><![CDATA[2018-11-30 15:05:08]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-11-30 15:05:08]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[test]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-	</item>
-	<item>
-		<title>test</title>
 		<link>http://localhost/nausikaa/test-2__trashed/</link>
 		<pubDate>Tue, 04 Dec 2018 12:51:50 +0000</pubDate>
 		<dc:creator><![CDATA[mibdw]]></dc:creator>
@@ -6316,51 +6822,6 @@ wwww</code></pre></div>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
 			<wp:meta_value><![CDATA[test-2]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
-		<title>Regular</title>
-		<link>http://localhost/nausikaa/regular__trashed/</link>
-		<pubDate>Wed, 14 Nov 2018 09:01:47 +0000</pubDate>
-		<dc:creator><![CDATA[mibdw]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/nausikaa/?p=91</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link" href="Button"></a></div>
-<!-- /wp:button -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>91</wp:post_id>
-		<wp:post_date><![CDATA[2018-11-14 09:01:47]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2018-11-14 09:01:47]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[regular__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-			<wp:meta_value><![CDATA[draft]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-			<wp:meta_value><![CDATA[1542186154]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-			<wp:meta_value><![CDATA[regular]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>

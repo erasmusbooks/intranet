@@ -1,0 +1,87 @@
+progress {
+  --progressBarOne: #5399df;
+  --progressBarTwo: #2980d7;
+  display: inline-block;
+  width: 100%;
+  padding: 3px;
+  height: calc(var(--lineHeight) + 10px);
+  background-color: var(--mainBackgroundLite);
+  border: 1px solid var(--mainLine);
+  border-radius: 4px;
+  -webkit-appearance: none;
+}
+
+progress:not([value])::-moz-progress-bar {
+  background-color: transparent;
+}
+
+progress::-moz-progress-bar {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--progressBarOne),
+    var(--progressBarOne) 1rem,
+    var(--progressBarTwo) 1rem,
+    var(--progressBarTwo) 2rem
+  );
+  background-size: 200% 200%;
+  animation: progressAnimation 8s linear infinite;
+  border-radius: 2px;
+}
+
+progress::-webkit-progress-value {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--progressBarOne),
+    var(--progressBarOne) 1rem,
+    var(--progressBarTwo) 1rem,
+    var(--progressBarTwo) 2rem
+  );
+  background-size: 200% 200%;
+  animation: progressAnimation 8s linear infinite;
+  border-radius: 2px;
+}
+
+@keyframes progressAnimation {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+progress.blue {
+  --progressBarOne: #2980d7;
+  --progressBarTwo: #5399df;
+}
+
+progress.red {
+  --progressBarOne: #cb4335;
+  --progressBarTwo: #d05649;
+}
+
+progress.yellow {
+  --progressBarOne: #ffcc00;
+  --progressBarTwo: #ffd633;
+}
+
+progress.green {
+  --progressBarOne: #28b463;
+  --progressBarTwo: #2ed172;
+}
+
+progress.purple {
+  --progressBarOne: #963694;
+  --progressBarTwo: #bb44b9;
+}
+
+progress.orange {
+  --progressBarOne: #f9690e;
+  --progressBarTwo: #fa8238;
+}
+
+progress.gray {
+  --progressBarOne: var(--mainVague);
+  --progressBarTwo: #808080;
+}
