@@ -9,6 +9,8 @@
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,100i,300,300i,400,400i,700,700i|IBM+Plex+Sans:100,100i,300,300i,400,400i,700,700i|IBM+Plex+Serif:100,100i,300,300i,400,400i,700,700i" rel="stylesheet">   
   <link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet">
 
+  <script src="<?php echo get_template_directory_uri(); ?>/scripts/dialog-polyfill.js"></script>
+
   <?php wp_head(); ?>
 
 </head>

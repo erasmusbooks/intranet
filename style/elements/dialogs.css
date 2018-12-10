@@ -1,35 +1,45 @@
 dialog {
-  display: block;
-  margin: var(--paragraphSpacer) auto;
-  min-width: 30em;
+  margin: var(--paragraphSpacer) 0;
+  min-width: 20rem;
   max-width: 80vw;
-  padding: 1.5em 3em 1.5em 2em;
+  padding: 1.5rem 3rem 1.5rem 2rem;
   border: 1px solid var(--mainLine);
   border-radius: 6px;
 }
 
+dialog[open] {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 dialog.inline {
+  display: block;
   position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
 }
 
-dialog .close {
+dialog .control.close {
   position: absolute;
-  top: 0.75em;
-  right: 0.75em;
+  top: 0.6rem;
+  right: 0.6rem;
 }
 
-dialog .close svg {
-  width: 2em;
-  height: 2em;
+dialog .control.close svg {
+  width: 1.7rem;
+  height: 1.7rem;
   fill: var(--mainLine);
 }
 
-dialog .close:hover svg,
-dialog .close:focus svg {
+dialog .control.close:hover svg,
+dialog .control.close:focus svg {
   fill: var(--mainVague);
 }
 
-dialog .close:active svg {
+dialog .control.close:active svg {
   fill: var(--mainText);
 }
 
@@ -37,7 +47,33 @@ dialog footer {
   background-color: var(--mainBackgroundLite);
   border-top: 1px solid var(--mainLine);
   border-radius: 0 0 6px 6px;
-  padding: 0.5em 1em 0.2em;
-  margin: 2em -3em -1.5em -2em;
+  padding: 0.5rem 1rem 0.2rem;
+  margin: 2rem -3rem -1.5rem -2rem;
   text-align: right;
+}
+
+dialog::backdrop,
+dialog + .backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+dialog.small {
+  width: 20rem;
+}
+
+dialog.medium {
+  width: 30rem;
+}
+
+dialog.wide {
+  width: 40rem;
+}
+
+dialog.full-width {
+  width: 100%;
 }
