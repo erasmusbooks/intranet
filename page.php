@@ -6,13 +6,9 @@
   <article>
     <?php while (have_posts()) : the_post(); ?>
 
-      <header>
-        <h2>
-          <?php the_title(); ?><?php edit_post_link('Edit', '<small> ', '</small>'); ?>
-        </h2>
-      </header>
-     
-      <section><?php the_content(); ?></section>
+      <h3><?php the_title(); ?></h3>
+      
+      <?php the_content(); ?>
 
     <?php endwhile; ?>
   </article>

@@ -1,6 +1,5 @@
 
-  <script src="<?php echo get_template_directory_uri(); ?>/highlight.pack.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-
+  <script src="<?php echo get_template_directory_uri(); ?>/scripts/bundle.js"></script>
+  
 </body>
 </html>

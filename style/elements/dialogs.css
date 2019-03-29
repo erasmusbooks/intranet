@@ -12,6 +12,11 @@ dialog[open] {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  animation: showModal 0.3s ease normal;
+}
+
+dialog[open].hide {
+  animation: hideModal 0.3s ease normal;
 }
 
 dialog.inline {
@@ -20,6 +25,7 @@ dialog.inline {
   top: auto;
   left: auto;
   transform: none;
+  animation: none;
 }
 
 dialog .control.close {
@@ -44,12 +50,22 @@ dialog .control.close:active svg {
 }
 
 dialog footer {
+  display: flex;
+  flex-direction: row;
   background-color: var(--mainBackgroundLite);
   border-top: 1px solid var(--mainLine);
   border-radius: 0 0 6px 6px;
   padding: 0.5rem 1rem 0.2rem;
   margin: 2rem -3rem -1.5rem -2rem;
-  text-align: right;
+  line-height: var(--buttonHeight);
+}
+
+dialog footer * {
+  flex-grow: 1;
+}
+
+dialog footer .spacer {
+  flex-grow: 100;
 }
 
 dialog::backdrop,
@@ -60,6 +76,12 @@ dialog + .backdrop {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.8);
+  animation: showBackdrop 0.3s ease normal;
+}
+
+dialog.hide::backdrop,
+dialog.hide + .backdrop {
+  animation: hideBackdrop 0.3s ease normal;
 }
 
 dialog.small {
@@ -76,4 +98,48 @@ dialog.wide {
 
 dialog.full-width {
   width: 100%;
+}
+
+@keyframes showModal {
+  0% {
+    opacity: 0;
+    top: 35%;
+  }
+
+  100% {
+    opacity: 1;
+    top: 40%;
+  }
+}
+
+@keyframes showBackdrop {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes hideModal {
+  0% {
+    opacity: 1;
+    top: 40%;
+  }
+
+  100% {
+    opacity: 0;
+    top: 35%;
+  }
+}
+
+@keyframes hideBackdrop {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }

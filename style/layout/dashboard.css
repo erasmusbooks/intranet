@@ -1,0 +1,66 @@
+#dashboard {
+  grid-template-columns: repeat(20, 1fr);
+}
+
+#dashboard .column-1 {
+  grid-column: 1 / 8;
+}
+
+#dashboard .column-2 {
+  grid-column: 15 / 21;
+}
+
+#dashboard .column-3 {
+  grid-column: 8 / 15;
+}
+
+#dashboard table.phone tr > *:nth-child(odd) {
+  width: 40%;
+}
+
+#dashboard table.phone tr > *:nth-child(even) {
+  width: 10%;
+}
+
+#dashboard time {
+  font-family: var(--utilityText);
+  display: block;
+  width: 80%;
+  margin: 0 auto 1em;
+  padding: 1em 0;
+  border-radius: 6px;
+  background-color: var(--mainBackgroundLite);
+  border: 1px solid var(--mainLine);
+  text-align: center;
+  text-decoration: none;
+}
+
+#dashboard .weekday {
+  text-transform: uppercase;
+  color: var(--mainLine);
+}
+
+#dashboard .number {
+  font-size: 5em;
+  line-height: 0.9em;
+  font-weight: 700;
+  color: var(--linkColor);
+  position: relative;
+  top: -2px;
+}
+
+#dashboard .month-year {
+  text-transform: uppercase;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  font-weight: bold;
+  color: var(--mainVague);
+}
+
+#dashboard .week {
+  color: var(--mainLine);
+}
+
+#dashboard #menu-tools {
+  text-align: center;
+}

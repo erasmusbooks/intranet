@@ -155,6 +155,7 @@ select[readonly]:hover {
   border-color: var(--inputVague);
 }
 
+input.invalid,
 input[type="date"]:invalid,
 input[type="datetime-local"]:invalid,
 input[type="email"]:invalid,
@@ -173,6 +174,7 @@ select:invalid {
   border-color: var(--inputLineError);
 }
 
+input.invalid:focus,
 input[type="date"]:invalid:focus,
 input[type="datetime-local"]:invalid:focus,
 input[type="email"]:invalid:focus,

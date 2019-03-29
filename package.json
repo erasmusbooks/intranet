@@ -4,21 +4,34 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "postcss style/index.css -o style.css --watch",
-    "build": "postcss style/index.css -o style.css",
-    "block:dev": "cgb-scripts start"
+    "dev": "cross-env NODE_ENV=development concurrently \"postcss style/index.css -o style.css --watch\" \"webpack --watch\"",
+    "webpack": "webpack --watch",
+    "build": "cross-env NODE_ENV=production concurrently \"postcss style/index.css -o style.css\" \"webpack\""
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cgb-scripts": "^1.13.0",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "acorn": "^6.1.1",
+    "babel-loader": "^8.0.5",
+    "concurrently": "^4.1.0",
+    "cross-env": "^5.2.0",
     "cssnano": "^3.10.0",
     "postcss-banner": "^3.0.0",
     "postcss-cli": "^4.1.1",
     "postcss-cssnext": "^3.0.2",
     "postcss-import": "^11.0.0",
     "postcss-nested": "^2.1.2",
-    "prettier": "^1.7.4"
+    "prettier": "^1.16.4",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "isbn-utils": "^1.1.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
 }

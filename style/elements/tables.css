@@ -1,16 +1,12 @@
 table,
 .table {
+  font-family: var(--utilityText);
   text-align: justify;
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
   max-width: 100%;
   margin: var(--paragraphSpacer) 0;
-}
-
-table th,
-.table th {
-  font-family: var(--utilityText);
 }
 
 table th,
@@ -68,4 +64,45 @@ table.striped tbody tr:hover:nth-of-type(odd) td,
 
 table.outlined {
   border: 1px solid var(--mainLine);
+}
+
+table.dense th,
+table.dense td {
+  padding: 0.35em 0.5em;
+}
+
+table tr#EUR td {
+  background-color: #d9edf7;
+}
+
+table tr#USD td {
+  background-color: #dff0d8;
+}
+
+table tr#GBP td {
+  background-color: #ffffe0;
+}
+
+table tr.active {
+  outline: 2px solid #999;
+}
+
+table tr.active td {
+  background-color: #fadbd8;
+  border-bottom-color: transparent;
+}
+
+table tr td.active {
+  background-color: #fadbd8;
+  font-weight: bold;
+}
+
+td.vague {
+  color: var(--mainLine);
+  font-size: 0.8em;
+}
+
+td.error {
+  font-weight: bold;
+  color: red;
 }

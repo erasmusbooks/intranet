@@ -1,0 +1,281 @@
+#tools nav {
+  grid-column: 1 / 13;
+}
+
+nav #menu-tools {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+nav #menu-tools li {
+  display: inline-block;
+}
+
+.knobs #menu-tools li a {
+  background-color: var(--knobBackground);
+  border: 1px solid var(--knobBorderColor);
+  color: var(--knobLinkColor);
+}
+
+.knobs #menu-tools li a:hover {
+  background-color: var(--knobHoverBackground);
+  color: var(--knobLinkColor);
+}
+
+.knobs #menu-tools li a:active,
+.knobs #menu-tools li.active a,
+.knobs #menu-tools li.current-menu-item a {
+  background-color: var(--knobActiveBackground);
+  border-color: var(--knobActiveBackground);
+  color: var(--knobActiveText);
+}
+
+.knobs #menu-tools li:nth-child(6n + 1) a {
+  --knobBackground: #ffffce;
+  --knobBorderColor: #e6e600;
+  --knobLinkColor: var(--black);
+  --knobHoverBackground: #ebebad;
+  --knobActiveBackground: #b9b92d;
+  --knobActiveText: var(--white);
+}
+
+.knobs #menu-tools li:nth-child(6n + 2) a {
+  --knobBackground: #e6f2ff;
+  --knobBorderColor: #80bdff;
+  --knobLinkColor: var(--black);
+  --knobHoverBackground: #b3d7ff;
+  --knobActiveBackground: #2980d7;
+  --knobActiveText: var(--white);
+}
+
+.knobs #menu-tools li:nth-child(6n + 3) a {
+  --knobBackground: #f5d9d6;
+  --knobBorderColor: #ff9999;
+  --knobLinkColor: var(--black);
+  --knobHoverBackground: #eab4ae;
+  --knobActiveBackground: #cb4335;
+  --knobActiveText: var(--white);
+}
+
+.knobs #menu-tools li:nth-child(6n + 4) a {
+  --knobBackground: #d5f6e3;
+  --knobBorderColor: #43d680;
+  --knobLinkColor: var(--black);
+  --knobHoverBackground: #abedc7;
+  --knobActiveBackground: #28b463;
+  --knobActiveText: var(--white);
+}
+
+.knobs #menu-tools li:nth-child(6n + 5) a {
+  --knobBackground: #e6ccff;
+  --knobBorderColor: #cc99ff;
+  --knobLinkColor: var(--black);
+  --knobHoverBackground: #d9b3ff;
+  --knobActiveBackground: #9933ff;
+  --knobActiveText: var(--white);
+}
+
+.knobs #menu-tools li:nth-child(6n + 6) a {
+  --knobBackground: #ffd9cc;
+  --knobBorderColor: #ff9f80;
+  --knobLinkColor: var(--black);
+  --knobHoverBackground: #ffc6b3;
+  --knobActiveBackground: #ff6633;
+  --knobActiveText: var(--white);
+}
+
+/* PRICING HELP */
+
+#tools #pricing-help > div {
+  display: grid;
+  grid-column-gap: 1.5em;
+  grid-template-columns: repeat(24, 1fr);
+  align-items: start;
+}
+
+#tools #pricing-help .pricing-help-table {
+  grid-column: 1 / 14;
+}
+
+#tools #pricing-help .vat-table {
+  grid-column: 14 / 25;
+}
+
+/* ANTIQUARIAN */
+
+#tools #antiquarian > div {
+  display: grid;
+  grid-column-gap: 1.5em;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: start;
+}
+
+#tools #antiquarian .left {
+  grid-column: 1 / 7;
+}
+
+#tools #antiquarian .right {
+  grid-column: 7 / 13;
+}
+
+#tools #antiquarian .basic-form > label {
+  grid-column: 1 / 4;
+}
+
+#tools #antiquarian .basic-form > *:not(label) {
+  grid-column: 4 / 13;
+}
+
+#tools #antiquarian .basic-form button {
+  grid-column: 1 / 12;
+  justify-self: end;
+  margin-right: 0;
+}
+
+#tools #antiquarian blockquote {
+  margin: 2em 0 1em;
+  padding: 0 1em;
+}
+
+#antiq-output td {
+  border-width: 0;
+  padding: 0.1em;
+}
+
+/* SPLIT VAT */
+
+#tools #split-vat > div {
+  display: grid;
+  grid-column-gap: 1.5em;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: start;
+}
+
+#tools #split-vat .basic-form {
+  grid-column: 1 / 7;
+}
+
+#tools #split-vat .basic-form > *:not(label) {
+  grid-column: 4 / 12;
+}
+
+#tools #split-vat .basic-form > label {
+  grid-column: 1 / 4;
+}
+
+#tools #split-vat table {
+  grid-column: 7 / 13;
+}
+
+/* ISBN CONVERTER */
+
+#tools #isbn-converter > div {
+  display: grid;
+  grid-column-gap: 1.5em;
+  grid-template-columns: repeat(20, 1fr);
+  align-items: start;
+}
+
+#tools #isbn-converter .left {
+  grid-column: 1 / 7;
+}
+
+#tools #isbn-converter .left .group {
+  width: 100%;
+}
+
+#tools #isbn-converter #prefix-table {
+  grid-column: 7 / 21;
+}
+
+#tools #isbn-converter #prefix-table th:nth-child(3),
+#tools #isbn-converter #prefix-table th:nth-child(6),
+#tools #isbn-converter #prefix-table td:nth-child(3),
+#tools #isbn-converter #prefix-table td:nth-child(6) {
+  border-right-width: 2px;
+}
+
+/* ROBOT */
+
+#tools #robot {
+  margin-bottom: 2em;
+  width: 100%;
+  overflow: hidden;
+}
+
+#tools #robot ul {
+  list-style-type: none;
+  margin: 1em 0 2em;
+}
+
+#tools #robot > ul > li {
+  padding-left: 120px;
+  position: relative;
+  margin: 3px 0;
+}
+
+#tools #robot ul li > time {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: var(--utilityText);
+  font-weight: bold;
+  color: var(--mainLine);
+  text-decoration: none;
+}
+
+#tools #robot kbd.user {
+  background-color: #2980d7;
+}
+
+#tools #robot svg.input {
+  position: absolute;
+  left: -10px;
+  top: -5px;
+  width: 2.1em;
+  height: 2.1em;
+  transform: rotate(-90deg);
+  fill: var(--mainLine);
+}
+
+#tools #robot kbd.user.input {
+  position: relative;
+  left: -100px;
+}
+
+#tools #robot .pricing-help-table {
+  width: 85%;
+}
+
+#tools #robot .vat-table,
+#tools #robot .isbn-table {
+  width: 30%;
+}
+
+#tools #robot form {
+  width: 100%;
+}
+
+/* SEARCH TABLE */
+
+.search-table {
+  width: 80%;
+}
+
+.search-table h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1em;
+  margin: 0;
+}
+
+#robot .antiq-quote {
+  width: 60%;
+  margin-bottom: 3px;
+}
+
+#robot .antiq-quote #antiq-output {
+  margin: 0;
+}
