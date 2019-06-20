@@ -49,8 +49,8 @@
   margin-right: 0;
 }
 
-.navbar > .group,
-.navbar > button {
+.navbar .group,
+.navbar button {
   margin-left: 0.5em;
   margin-right: 0;
 }

@@ -90,6 +90,7 @@ class Antiquarian extends Component {
     this.changeDescription = this.changeDescription.bind(this);
     this.changePurchase = this.changePurchase.bind(this);
     this.fetchTitle = this.fetchTitle.bind(this);
+    this.clearForm = this.clearForm.bind(this);
   }
 
   componentDidMount() {
@@ -209,6 +210,24 @@ class Antiquarian extends Component {
 
   handleSubmit(e) {
     e.preventDefault();
+  }
+
+  clearForm() {
+    this.setState({
+      amount: "",
+      shipping: "",
+      ean: "",
+      purchase: 0,
+      sale: 0,
+      condition: "Unknown",
+      description: "",
+      discount: "",
+      currency: "EUR",
+      url: "",
+      lastUpdated: "",
+      title: "Unknown",
+      author: "Unknown"
+    });
   }
 
   render() {
@@ -334,9 +353,8 @@ class Antiquarian extends Component {
               id="description"
               placeholder="Leave empty if no description"
               onChange={this.changeDescription}
-            >
-              {description}
-            </textarea>
+              value={description}
+            />
           </div>
 
           <AntiquarianQuote
@@ -351,6 +369,7 @@ class Antiquarian extends Component {
             currency={currency}
             sale={sale}
             discount={discount}
+            clearForm={this.clearForm}
           />
         </div>
 

@@ -16,39 +16,42 @@ const AntiquarianQuote = ({
   shipping,
   currency,
   sale,
-  discount
+  discount,
+  clearForm
 }) => {
   const copyToClipboard = () => {
     const emailStyle = {
       fontFamily: "Calibri, Arial, sans-serif",
-      fontSize: "110%"
+      fontSize: "100%"
     };
+
+    const verAlign = { verticalAlign: "top" };
 
     const copyTable = (
       <table style={{ ...emailStyle, marginLeft: "1em" }}>
         <tr>
-          <td>Quantity:</td>
-          <td>1</td>
+          <td style={verAlign}>Quantity:</td>
+          <td style={verAlign}>1</td>
         </tr>
         <tr>
-          <td>Author(s):</td>
-          <td>{author || "Unknown"}</td>
+          <td style={verAlign}>Author(s):</td>
+          <td style={verAlign}>{author || "Unknown"}</td>
         </tr>
         <tr>
-          <td>Title:</td>
-          <td>
+          <td style={{ width: "150px" }}>Title:</td>
+          <td style={verAlign}>
             <strong>{title || "Unknown"}</strong>
           </td>
         </tr>
         <tr>
-          <td>ISBN:</td>
-          <td>
+          <td style={verAlign}>ISBN:</td>
+          <td style={verAlign}>
             <IsbnElement ean={ean} />
           </td>
         </tr>
         <tr>
-          <td>URL:</td>
-          <td>
+          <td style={verAlign}>URL:</td>
+          <td style={verAlign}>
             {url.length ? (
               <a href={url} target="_blank">
                 {url}
@@ -59,14 +62,14 @@ const AntiquarianQuote = ({
           </td>
         </tr>
         <tr>
-          <td>Condition:</td>
-          <td>
+          <td style={verAlign}>Condition:</td>
+          <td style={verAlign}>
             {condition} {description && `(${description})`}
           </td>
         </tr>
         <tr>
-          <td>Purchase:</td>
-          <td>
+          <td style={verAlign}>Purchase:</td>
+          <td style={verAlign}>
             <PurchaseElement
               amount={amount}
               shipping={shipping}
@@ -75,8 +78,8 @@ const AntiquarianQuote = ({
           </td>
         </tr>
         <tr>
-          <td style={{ paddingRight: "2em" }}>Customer price:</td>
-          <td>
+          <td style={verAlign}>Customer price:</td>
+          <td style={verAlign}>
             <SaleElement sale={sale} discount={discount} />
           </td>
         </tr>
@@ -84,11 +87,16 @@ const AntiquarianQuote = ({
     );
 
     const emailMarkup = (
-      <span>
-        <p style={emailStyle}>(Antiq: XXXXXX, Customer: XXXXXX)</p>
-        <p style={emailStyle}>XXXXXX,</p>
+      <span style={emailStyle}>
+        (Antiq: XXXXXX, Customer: XXXXXX)
+        <br />
+        <br />
+        XXXXXX,
+        <br />
+        <br />
         {copyTable}
-        <p style={emailStyle}>Ben</p>
+        <br />
+        Ben
       </span>
     );
 
@@ -126,31 +134,39 @@ const AntiquarianQuote = ({
   };
 
   return [
+    <button
+      className="primary"
+      onClick={copyToClipboard}
+      style={{ float: "right", marginRight: 0 }}
+    >
+      Copy to clipboard
+    </button>,
+    <button onClick={clearForm}>Clear form</button>,
     <blockquote className="antiq-quote">
       <table id="antiq-output">
         <tr>
           <td width="35%">Quantity:</td>
-          <td>1</td>
+          <td style={{ verticalAlign: "top" }}>1</td>
         </tr>
         <tr>
-          <td>Author(s):</td>
-          <td>{author || "Unknown"}</td>
+          <td style={{ verticalAlign: "top" }}>Author(s):</td>
+          <td style={{ verticalAlign: "top" }}>{author || "Unknown"}</td>
         </tr>
         <tr>
-          <td>Title:</td>
-          <td>
+          <td style={{ verticalAlign: "top" }}>Title:</td>
+          <td style={{ verticalAlign: "top" }}>
             <strong>{title || "Unknown"}</strong>
           </td>
         </tr>
         <tr>
-          <td>ISBN:</td>
-          <td>
+          <td style={{ verticalAlign: "top" }}>ISBN:</td>
+          <td style={{ verticalAlign: "top" }}>
             <IsbnElement ean={ean} />
           </td>
         </tr>
         <tr>
-          <td>URL:</td>
-          <td>
+          <td style={{ verticalAlign: "top" }}>URL:</td>
+          <td style={{ verticalAlign: "top" }}>
             {url.length ? (
               <a href={url} target="_blank">
                 {url}
@@ -161,14 +177,14 @@ const AntiquarianQuote = ({
           </td>
         </tr>
         <tr>
-          <td>Condition:</td>
-          <td>
+          <td style={{ verticalAlign: "top" }}>Condition:</td>
+          <td style={{ verticalAlign: "top" }}>
             {condition} {description && `(${description})`}
           </td>
         </tr>
         <tr>
-          <td>Purchase:</td>
-          <td>
+          <td style={{ verticalAlign: "top" }}>Purchase:</td>
+          <td style={{ verticalAlign: "top" }}>
             <PurchaseElement
               amount={amount}
               shipping={shipping}
@@ -177,16 +193,13 @@ const AntiquarianQuote = ({
           </td>
         </tr>
         <tr>
-          <td>Customer price:</td>
-          <td>
+          <td style={{ verticalAlign: "top" }}>Customer price:</td>
+          <td style={{ verticalAlign: "top" }}>
             <SaleElement sale={sale} discount={discount} />
           </td>
         </tr>
       </table>
-    </blockquote>,
-    <button className="primary" onClick={copyToClipboard}>
-      Copy to clipboard
-    </button>
+    </blockquote>
   ];
 };
 

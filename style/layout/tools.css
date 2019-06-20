@@ -95,6 +95,18 @@ nav #menu-tools li {
   align-items: start;
 }
 
+#tools #pricing-help #pricing-help-input {
+  grid-column: 1 / 10;
+}
+
+#tools #pricing-help #pricing-help-updated {
+  grid-column: 11 / 25;
+  text-align: right;
+  line-height: 1em;
+  padding-top: 0.4em;
+  font-family: var(--utilityText);
+}
+
 #tools #pricing-help .pricing-help-table {
   grid-column: 1 / 14;
 }
@@ -135,7 +147,7 @@ nav #menu-tools li {
 }
 
 #tools #antiquarian blockquote {
-  margin: 2em 0 1em;
+  margin: 0 0 1em;
   padding: 0 1em;
 }
 

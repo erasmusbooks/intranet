@@ -32,17 +32,7 @@
 
     <div class="spacer"></div>
     
-    <form role="search" method="get" class="group" action="<?php echo home_url( '/' ); ?>" class="group">
-      <svg class="icon">
-        <use xlink:href="<?php echo get_template_directory_uri(); ?>/icons/icons.svg#search"></use>
-      </svg>
-      <input id="s" name="s" class="prepend-icon" type="search" placeholder="Search..." value="<?php if (htmlspecialchars($_GET["s"])) echo htmlspecialchars($_GET["s"]); ?>">
-<!--       <button type="submit" class="primary">
-        <svg class="icon">
-          <use xlink:href="<?php echo get_template_directory_uri(); ?>/icons/icons.svg#search"></use>
-        </svg>
-      </button>   -->      
-    </form>
+    <div id="header-search"></div>
 
     <nav>
       <ul>

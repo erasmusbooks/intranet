@@ -74,7 +74,11 @@ class PricingHelp extends React.Component {
 
     return (
       <div>
-        <form className="group" onSubmit={this.handleSubmit}>
+        <form
+          className="group"
+          id="pricing-help-input"
+          onSubmit={this.handleSubmit}
+        >
           <input
             id="base-amount"
             type="number"
@@ -98,6 +102,14 @@ class PricingHelp extends React.Component {
             Convert
           </button>
         </form>
+
+        <div id="pricing-help-updated">
+          Conversion rates by <a href="https://fixer.io/">Fixer</a> <br />
+          <span className="last-updated">
+            Last updated: <strong>{lastUpdated}</strong> (Reload page to fetch
+            new rates)
+          </span>
+        </div>
 
         <PricingHelpTable
           amount={amount}
